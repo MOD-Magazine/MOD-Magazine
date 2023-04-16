@@ -6,6 +6,7 @@
 2. **Avoid unnecessary bias**
 3. **Use appropriate language**
 4. **Use correct spelling, punctuation and grammar**
+5. **Do not plagiarise**
 
 ## 1. Be clear and concise
 
@@ -100,3 +101,9 @@ all), but avoid any of the following:
 | Avoid                        | Prefer                          |
 | ---------------------------- | ------------------------------- |
 | _Apples, bananas or oranges_ | **Apples, bananas, or oranges** |
+
+## 5. Do not plagiarise
+
+Do **not** copy from other sources, and do not use AI such as ChatGPT. If plagiarism or AI use is suspected, the text submitted will be ran against software to detect this. If plagiarism or AI use is detected, you will be blocked from contributing to MOD! Magazine.
+
+Referencing other sources is fine as long as the license of said source is respected.
