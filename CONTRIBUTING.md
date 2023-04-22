@@ -14,11 +14,7 @@ Thank you for your interest in contributing to MOD!. We recommend reaching out [
 
 _[Writing Style Guide](https://github.com/MOD-Magazine/MOD-Magazine/blob/main/WRITING-STYLE-GUIDE.md)_
 
-Our articles are written in Markdown, and will be collated into the magazine by the editors - this means the writers only have to focus on writing the article! Please make sure you read the style guide linked above and make sure to send your article in the following file in the relevant issue folder:
-
-- Small news sections can be a part of `news.md`.
-- Reviews should be in a `review-<content name>.md` file.
-- Any other articles should be `lower-kebab-case.md`.
+Our articles are written in Markdown, and will be collated into the magazine by the editors - this means the writers only have to focus on writing the article! Please make sure you read the style guide linked above and make sure to send your article in the a `lower-kebab-case.md` file in the relevant issue folder
 
 Images and other content can be put in the `/<issue folder>/assets` directory. Please make sure you include a copyright/attribution notice if necessary, in the `ATTRIBUTION.md` file 
 
