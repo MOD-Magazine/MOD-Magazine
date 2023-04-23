@@ -7,6 +7,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
       - name: Setup Tooling
         uses: ./.github/actions/setup
       - name: Check Formatting
