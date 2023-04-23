@@ -17,6 +17,7 @@ Our articles are written in Markdown, and will be collated into the magazine by 
 
 1. Discussed the article with us before submitting your pull request.
 2. Created an issue and been assigned to it before submitting your pull request.
+3. Make sure you link your issue and pull request.
 
 Images and other content can be put in the `/<issue folder>/assets` directory. Please make sure you include a copyright/attribution notice if necessary, in the `ATTRIBUTION.md` file 
 
