@@ -12,9 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v3
+        continue-on-error: true
 
       - name: Check If Comment Has Already Been Made
         id: check-comment
+        continue-on-error: true
         run: cat PR_COMMENT/COMMENTED_ON_PR
       
       # If we have already commented on the PR, then we don't need to do anything else
