@@ -13,6 +13,13 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
         continue-on-error: true
+        with:
+          name: PR_COMMENT
+          path: PR_COMMENT
+
+
+      - name: debug
+        run: ls -la .
 
       - name: Check If Comment Has Already Been Made
         id: check-comment
