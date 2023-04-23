@@ -35,6 +35,8 @@ So what's the coolest bit? "More genders can be added via datapacks". This is no
 
 Sylv made a mod called "Unobtanium". It really cries back to the era of Emerald armour and smelt-able rotten flesh mods. Unobtanium is an overpowered material that can be crafted with Netherite and...baguettes? Whatever floats your boat (or, slays your enemies in this case).
 
+![Unobtanium?](assets/unobtanium.png)
+
 These weren't the only submissions, but I thought they were the most showcase-able. For example, we also had the catchily-named "Machine-Vote-Gun-Chan", and EmoteCraft was ported to the snapshot.
 
 The competition was a great
