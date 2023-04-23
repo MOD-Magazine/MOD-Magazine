@@ -13,6 +13,7 @@ jobs:
         uses: ./.github/actions/setup
       - name: Check Formatting
         id: check
+        continue-on-error: true
         run: prettier --check .
       - name: Comment on PR
         if: steps.check.outcome == 'failure'
