@@ -1,0 +1,18 @@
+name: Format
+
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Tooling
+        uses: ./.github/actions/setup
+      - name: Format
+        run: prettier .
+      - name: Commit Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Format documents
+      

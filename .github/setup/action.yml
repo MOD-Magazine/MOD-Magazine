@@ -1,0 +1,16 @@
+name: Setup
+description: Initial setup for workflows
+
+runs: 
+  using: composite
+  steps:
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:   
+        node-version: 16
+        cache: npm
+    - name: Install Prettier
+      shell: bash
+      run: npm install -g prettier
+    - name: Checkout Repository
+      uses: actions/checkout@v2
