@@ -33,15 +33,17 @@ jobs:
         if: steps.check-comment.outcome == 'success'
 
       - name: Setup Tooling
+        if: steps.check-comment.outcome != 'success'
         uses: ./.github/actions/setup
 
       - name: Check Formatting
+        if: steps.check-comment.outcome != 'success'
         id: check
         continue-on-error: true
         run: prettier --check .
 
       - name: Comment on PR
-        if: steps.check.outcome == 'failure'
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
@@ -50,7 +52,7 @@ jobs:
       # Store the fact that we have commented on the PR 
       # so that we can skip the comment if this action is run again
       - name: Create Comment Flag
-        if: steps.check.outcome == 'failure'
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
         run: |
           mkdir -p PR_COMMENT
           echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
@@ -58,7 +60,7 @@ jobs:
       # If we have already commented on the PR, then we don't need to do anything else
       - name: Upload Comment Flag
         uses: actions/upload-artifact@v3
-        if: steps.check.outcome == 'failure'
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
         with:
           name: PR_COMMENT
           path: PR_COMMENT
