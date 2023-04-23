@@ -37,7 +37,13 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: Format documents
-          new_branch: ${{ github.event.pull_request.head.ref }}
+          push: false
+          
+      - name: Push License Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
 
       - name: Comment on PR
         if: steps.check.outcome == 'failure'
