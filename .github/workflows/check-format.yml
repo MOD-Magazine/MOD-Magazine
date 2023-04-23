@@ -4,24 +4,58 @@ on:
   pull_request:
 
 permissions: 
-   pull-requests: write 
+  actions: write
+  pull-requests: write 
 
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/download-artifact@v3
+
+      - name: Check If Comment Has Already Been Made
+        id: check-comment
+        run: cat PR_COMMENT/COMMENTED_ON_PR
+      
+      # If we have already commented on the PR, then we don't need to do anything else
+      - name: Skip Commenting
+        if: steps.check-comment.outcome == 'success'
+        # Hacky way to early-exit, so we don't need `if: ...` on every step
+        run: |
+          gh run cancel ${{ github.run_id }}
+          gh run watch ${{ github.run_id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Checkout Repository
         uses: actions/checkout@v2
+
       - name: Setup Tooling
         uses: ./.github/actions/setup
+
       - name: Check Formatting
         id: check
         continue-on-error: true
         run: prettier --check .
+
       - name: Comment on PR
         if: steps.check.outcome == 'failure'
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
             This pull request contains files that are not formatted correctly and will be formatted automatically if the pull request is merged. Authors: you do not need to do anything.
-            
+      
+      # Store the fact that we have commented on the PR 
+      # so that we can skip the comment if this action is run again
+      - name: Make a note of the comment
+        if: steps.check.outcome == 'failure'
+        run: |
+          mkdir -p PR_COMMENT
+          echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
+
+      # If we have already commented on the PR, then we don't need to do anything else
+      - uses: actions/upload-artifact@v3
+        if: steps.check.outcome == 'failure'
+        with:
+          name: PR_COMMENT
+          path: PR_COMMENT
