@@ -2,6 +2,8 @@ name: Format
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   check:
@@ -17,5 +19,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: Format documents
-          new_branch: ${{ github.event.pull_request.head.ref }}
+          new_branch: ${{ github.ref }}
       

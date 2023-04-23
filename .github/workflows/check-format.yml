@@ -24,3 +24,4 @@ jobs:
         with:
           message: |
             This pull request contains files that are not formatted correctly and will be formatted automatically if the pull request is merged. Authors: you do not need to do anything.
+            
