@@ -14,13 +14,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # - uses: actions/download-artifact@v3
-      #   continue-on-error: true
-      #   with:
-      #     name: PR_COMMENT
-      #     path: PR_COMMENT
-
-      - name: Download comment flag
+      - name: Download Comment Flag
         uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -29,23 +23,14 @@ jobs:
           path: PR_COMMENT
           if_no_artifact_found: ignore
 
-      - name: debug
-        run: ls -la .
-
-      - name: Check If Comment Has Already Been Made
+      - name: Check if Comment Flag is Set
         id: check-comment
         continue-on-error: true
         run: cat PR_COMMENT/COMMENTED_ON_PR
       
-      # If we have already commented on the PR, then we don't need to do anything else
-      - name: Skip Commenting
+      - name: Skip Workflow if Comment Flag is Set
+        uses: andymckay/cancel-action@0.3
         if: steps.check-comment.outcome == 'success'
-        # Hacky way to early-exit, so we don't need `if: ...` on every step
-        run: |
-          gh run cancel ${{ github.run_id }}
-          gh run watch ${{ github.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Tooling
         uses: ./.github/actions/setup
@@ -64,14 +49,14 @@ jobs:
       
       # Store the fact that we have commented on the PR 
       # so that we can skip the comment if this action is run again
-      - name: Create comment flag
+      - name: Create Comment Flag
         if: steps.check.outcome == 'failure'
         run: |
           mkdir -p PR_COMMENT
           echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
 
       # If we have already commented on the PR, then we don't need to do anything else
-      - name: Upload comment flag
+      - name: Upload Comment Flag
         uses: actions/upload-artifact@v3
         if: steps.check.outcome == 'failure'
         with:
