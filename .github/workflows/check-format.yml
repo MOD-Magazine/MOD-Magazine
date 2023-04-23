@@ -28,10 +28,6 @@ jobs:
         continue-on-error: true
         run: cat PR_COMMENT/COMMENTED_ON_PR
       
-      - name: Skip Workflow if Comment Flag is Set
-        uses: andymckay/cancel-action@0.3
-        if: steps.check-comment.outcome == 'success'
-
       - name: Setup Tooling
         if: steps.check-comment.outcome != 'success'
         uses: ./.github/actions/setup
