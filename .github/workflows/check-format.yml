@@ -14,11 +14,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - uses: actions/download-artifact@v3
-        continue-on-error: true
+      # - uses: actions/download-artifact@v3
+      #   continue-on-error: true
+      #   with:
+      #     name: PR_COMMENT
+      #     path: PR_COMMENT
+
+      - name: Download comment flag
+        uses: dawidd6/action-download-artifact@v2
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          event: pull_request
           name: PR_COMMENT
           path: PR_COMMENT
+          if_no_artifact_found: ignore
 
       - name: debug
         run: ls -la .
@@ -55,14 +64,15 @@ jobs:
       
       # Store the fact that we have commented on the PR 
       # so that we can skip the comment if this action is run again
-      - name: Make a note of the comment
+      - name: Create comment flag
         if: steps.check.outcome == 'failure'
         run: |
           mkdir -p PR_COMMENT
           echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
 
       # If we have already commented on the PR, then we don't need to do anything else
-      - uses: actions/upload-artifact@v3
+      - name: Upload comment flag
+        uses: actions/upload-artifact@v3
         if: steps.check.outcome == 'failure'
         with:
           name: PR_COMMENT
