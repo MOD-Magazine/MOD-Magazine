@@ -11,10 +11,6 @@ The new update cycle, which pushes out small updates more frequently, has made i
 
 While the new update cycle has been beneficial for vanilla players and the development team, it has had a negative impact on modders. In this article, we will explore the effect of the update cycle on modders and how it has impacted the Minecraft modding community. We will also look at the challenges modders face and the potential solutions that can help them overcome them.
 
-## Background
-
-Minecraft is a popular sandbox video game developed by Mojang Studios. It has a huge modding community that creates custom content and modifications for the game. However, Mojang Studios' update cycle has had a significant impact on modders and their ability to create and maintain mods for the game.
-
 ## Mojang's Update Cycle
 
 Mojang Studios has implemented a new update cycle that pushes out small updates more frequently for versions like 1.19.3. This is helpful for vanilla players and probably for the dev team, but it has a significant impact on modders. The modding community or players often rely on mods that are outdated and no longer work with the latest version of the game. This means that modders have to constantly update their mods to be compatible with the latest version of the game.
