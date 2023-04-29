@@ -31,7 +31,7 @@ Despite the challenges, there are also benefits for modders in the update cycle.
 
 Modding is a significant aspect of the Minecraft community, with players using mods to enhance their gameplay experience. However, Mojang's new update release cycle has had a significant impact on players, particularly those who rely on mods.
 
-Players have different preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. Mojang's new update cycle, which involves pushing out small updates sooner, has been well-received by the majority of vanilla players. However, this new cycle has negatively impacted modders and the players who rely on mods.
+Players have different preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. Mojang's new update cycle, which involves pushing out small updates sooner, has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. With the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
 
 The new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. However, with the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
 
