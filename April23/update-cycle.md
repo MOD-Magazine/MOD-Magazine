@@ -29,7 +29,9 @@ When Mojang releases an update, modders must update their mods to ensure that th
 
 ## Benefits for Modders
 
-Despite the challenges, there are also benefits for modders in the update cycle. Updates can provide new opportunities for modders to create mods that take advantage of new features and improvements in the game. Additionally, updates can help keep the game fresh and interesting for players, which can increase the demand for mods as a result. Overall, Mojang updates can have both positive and negative effects on modders. While updates can provide new opportunities and keep the game fresh, they can also create challenges and require modders to invest time and resources into updating their mods.
+Despite the challenges, there are also benefits for modders in the update cycle. Updates can provide new opportunities for modders to create mods that take advantage of new features and improvements in the game. Additionally, updates can help keep the game fresh and interesting for players, which can increase the demand for mods as a result.
+
+Overall, Mojang updates can have both positive and negative effects on modders. While updates can provide new opportunities and keep the game fresh, they can also create challenges and require modders to invest time and resources into updating their mods.
 
 ## Impact on players
 
