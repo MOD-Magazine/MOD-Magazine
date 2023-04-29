@@ -13,7 +13,7 @@ While the new update cycle has been beneficial for vanilla players and the devel
 
 ## Mojang's Update Cycle
 
-Mojang Studios has implemented a new update cycle that pushes out small updates more frequently for versions like 1.19.3. This is helpful for vanilla players and probably for the dev team, but it has a significant impact on modders. The modding community or players often rely on mods that are outdated and no longer work with the latest version of the game. This means that modders have to constantly update their mods to be compatible with the latest version of the game.
+The new update cycle pushes out small updates more frequently for versions like 1.19.3. This is helpful for vanilla players and probably for the dev team, but it has a significant impact on modders. The modding community or players often rely on mods that are outdated and no longer work with the latest version of the game. This means that modders have to constantly update their mods to be compatible with the latest version of the game.
 
 Mojang releases updates for various reasons. These updates may include bug fixes, new features, and improvements to game performance. However, these updates can also impact modders, who create modifications to the game that alter its gameplay.
 
