@@ -63,4 +63,4 @@ It is clear that Mojang's update cycle has had a significant impact on modders. 
 
 Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the update system creates for modders, they are putting little focus on making the workload easier for said creators. This means that modders will need to continue to adapt and find new ways to make their work compatible with the latest updates.
 
-Overall, Minecraft modding's future remains uncertain. While some modders have monetised their work, it is unclear whether this trend will continue. As the game continues to evolve and change, modders will need to find new ways to keep up with the latest updates and changes. Only time will tell how this will impact the Minecraft modding community in the long run.
+The future of Minecraft modding remains uncertain. As the game continues to evolve and change, modders will need to find new ways to keep up with the latest updates and changes. Only time will tell how this will impact the community in the long run.
