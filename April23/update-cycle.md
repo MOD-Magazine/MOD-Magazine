@@ -25,7 +25,7 @@ The modding decline in Minecraft is also attributed to the fact that there are f
 
 ## Challenges for Modders
 
-When Mojang releases an update, modders must update their mods to ensure that they are compatible with the latest version of the game. This can be a time-consuming process, as modders must review and update their code to work with any changes made in the update. Modders also face the challenge of keeping up with the frequency of updates, as Mojang releases updates on a regular basis.
+When Mojang releases an update, modders must update their mods to ensure that they are compatible with the latest version of the game. This can be a time-consuming process, as modders must review and update their code to work with any changes made in the update. Modders also face the challenge of keeping up with the increased frequency of updates due to Mojangs new update strategy.
 
 ## Benefits for Modders
 
