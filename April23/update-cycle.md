@@ -21,13 +21,9 @@ Mojang releases updates for various reasons. These updates may include bug fixes
 
 The modding decline in Minecraft is also attributed to the fact that there are fewer new players coming into the game, which means that there are fewer people interested in creating and using mods. Additionally, the introduction of the Minecraft Marketplace has made it difficult for modders to monetize their work, which has discouraged many from continuing to create mods for the game.
 
-# Effect of the Update Cycle on Modders
-
-## Challenges for Modders
+## Effect of the Update Cycle on Modders
 
 When Mojang releases an update, modders must update their mods to ensure that they are compatible with the latest version of the game. This can be a time-consuming process, as modders must review and update their code to work with any changes made in the update. Modders also face the challenge of keeping up with the increased frequency of updates due to Mojangs new update strategy.
-
-## Benefits for Modders
 
 Despite the challenges, there are also benefits for modders in the update cycle. Updates can provide new opportunities for modders to create mods that take advantage of new features and improvements in the game. Additionally, updates can help keep the game fresh and interesting for players, which can increase the demand for mods as a result. Overall, Mojang updates can have both positive and negative effects on modders. While updates can provide new opportunities and keep the game fresh, they can also create challenges and require modders to invest time and resources into updating their mods.
 
