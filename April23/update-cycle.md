@@ -41,7 +41,7 @@ Furthermore, the new update cycle has caused confusion among players who are not
 
 # Modders' opinions
 
-Modders in the Minecraft modding community have shared their feedback on the impact of Mojang's new update release cycle on modders.
+Modders in the Minecraft modding community have shared their feedback on the update cycle with us.
 
 Some modders have praised Mojang's new update cycle for providing players with more frequent updates and bug fixes. This, in turn, creates a better gaming experience for players. Additionally, some modders believe that the new update cycle can help modders by providing them with a more stable platform to work with.
 
