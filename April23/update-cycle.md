@@ -1,5 +1,5 @@
 ---
-title: The effect of Mojang's new update cycle on modders
+title: The Effect of Mojang's New Update Cycle on Modders
 author: Zxhir
 ---
 
