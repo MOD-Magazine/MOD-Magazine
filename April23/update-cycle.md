@@ -15,7 +15,7 @@ While the new update cycle has been beneficial for vanilla players and the devel
 
 The new update cycle pushes out small updates more frequently for versions like 1.19.3. This is helpful for vanilla players and probably for the dev team, but it has a significant impact on modders. The modding community or players often rely on mods that are outdated and no longer work with the latest version of the game. This means that modders have to constantly update their mods to be compatible with the latest version of the game.
 
-Mojang releases updates for various reasons. These updates may include bug fixes, new features, and improvements to game performance. But modders often face challenges when Mojang changes their game and interferes with modder code. The modder must tweak his or her code until the game recognises the input. If Minecraft cannot recognize the input, it may crash the game or break, making the mod (and sometimes the game itself) useless and broken.
+Mojang releases updates for various reasons. These updates may include bug fixes, new features, and improvements to game performance. But modders often face challenges when Mojang changes their game and interferes with modder code. The modder must tweak their code until the game recognises the input. If Minecraft cannot recognize the input, it may crash the game or break, making the mod (and sometimes the game itself) useless and broken.
 
 ## Modders and Minecraft Updates
 
