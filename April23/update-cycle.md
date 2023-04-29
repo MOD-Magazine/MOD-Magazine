@@ -51,7 +51,7 @@ Some modders have praised Mojang's new update cycle for providing players with m
 
 > Mojang's new schedule is much more flexible in that it allows them to fix bugs and develop features in parallel. No longer will they have to work a few silent months to release a big update all at once, now they can have a more streamlined release process with smaller, more often updates where all experimental content wise changes are offloaded into the experimental datapack instead of only snapshots, which means we can use them sooner.
 
-On the other hand, some modders have expressed concern about the impact of the new update cycle on modders. One of the main concerns is that updates may cause mods to break more often, leading to frustration for both modders and players.
+On the other hand, some modders have expressed concern about the impact of the new update cycle on modders. One of the main concerns is that updates will cause mods to break more often, leading to frustration for both modders and players.
 
 > It's not really giving mods a good period to "settle" which I believe is harmful to mod pack communities and servers while beneficial to vanilla players.
 
