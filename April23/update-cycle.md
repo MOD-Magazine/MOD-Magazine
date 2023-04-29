@@ -35,7 +35,7 @@ Players have different preferences when it comes to updates. Some prefer small, 
 
 The new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. However, with the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
 
-Players who use mods are frustrated by the lack of compatibility with the latest version of Minecraft. They are forced to choose between updating their game and losing access to their favourite mods or sticking with an older version of Minecraft and missing out on new features and improvements.
+Players who use mods are frustrated by the lack of compatibility with the latest version of Minecraft. They are forced to choose between updating their game and losing access to their favourite mods, or sticking with an older version of Minecraft and missing out on new features and improvements.
 
 Furthermore, the new update cycle has caused confusion among players who are not familiar with the mods. They may not understand why their favourite mods no longer work, leading to frustration and disappointment.
 
