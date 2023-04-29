@@ -59,7 +59,7 @@ Overall, the impact of Mojang's new update cycle on modders is still up for deba
 
 # Conclusion
 
-It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt and continue making money, others have struggled to keep up with the constant changes and updates to the game. The lack of an official mod API has also made it difficult for modders to have their work endorsed and distributed through a central repository in-game.
+It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt and continue making money, others have struggled to keep up with the constant changes and updates to the game.
 
 Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the update system creates for modders, they are putting little focus on making the workload easier for said creators. This means that modders will need to continue to adapt and find new ways to make their work compatible with the latest updates.
 
