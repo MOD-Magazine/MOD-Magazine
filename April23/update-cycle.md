@@ -5,7 +5,7 @@ author: Zxhir
 
 # Introduction
 
-Modding has been an integral part of the Minecraft community since its inception. One of the reasons for its success is the ability for players to create their own modifications, or "mods," that change the game in various ways. These mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the recent update cycle by Mojang has had a significant impact on modders, and many are struggling to keep up with the changes.
+Modding has been an integral part of the Minecraft community since its inception. One of the reasons for its success is the ability for players to create their own modifications, or "mods," that change the game in various ways. These mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the new update cycle recently introduced by Mojang has had a significant impact on modders, and many are struggling to keep up with the changes.
 
 The new update cycle, which pushes out small updates more frequently, has made it difficult for modders to maintain their mods. When Mojang changes the game, it can interfere with the modders' code. They must tweak their code to work with the new update. This process can be time-consuming and frustrating, and it can also make mods useless and broken if Minecraft cannot recognize the input.
 
