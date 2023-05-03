@@ -17,7 +17,7 @@ jobs:
       - name: Get Previous Commit ID
         id: previous-commit
         run:
-          echo "ID=$(git rev-parse HEAD^1)" > $GITHUB_OUTPUT
+          echo "ID=$(git rev-parse HEAD^1)" >> "$GITHUB_OUTPUT"
 
       - name: Download Comment Flag
         uses: dawidd6/action-download-artifact@v2
@@ -53,7 +53,7 @@ jobs:
       # Store the fact that we have commented on the PR 
       # so that we can skip the comment if this action is run again
       - name: Create Comment Flag
-        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
+        if: ${{ (steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success') || steps.check-comment.outcome == 'success' }}
         run: |
           mkdir -p PR_COMMENT
           echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
@@ -61,7 +61,7 @@ jobs:
       # If we have already commented on the PR, then we don't need to do anything else
       - name: Upload Comment Flag
         uses: actions/upload-artifact@v3
-        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
+        if: ${{ (steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success') || steps.check-comment.outcome == 'success' }}
         with:
           name: PR_COMMENT
           path: PR_COMMENT
