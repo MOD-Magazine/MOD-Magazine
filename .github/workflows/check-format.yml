@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Find Previous Comment
         uses: peter-evans/find-comment@v2
