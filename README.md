@@ -1,20 +1,5 @@
 # MOD! Magazine
 
-This is used to store the raw text that goes into MOD! Magazine issues.
+MOD! Magazine is a monthly magazine available as both print and blog posts about all things modded Minecraft! Included are reviews, news, and other articles are the modded world.
 
-## Info for contributors
-
-- Please PR any changes rather than pushing them directly.
-- Please send any articles as Markdown files with headings and images correctly
-  formatted
-- Please send articles that are named as follows:
-  - Any news should be part of "news.md"
-  - Any review should be part of "review-<name of mod>.md"
-  - Any drama should be under "drama.md"
-  - Any other article should be under the article's name, hyphenated, in
-    lowercase.
-
-Please read the following documents before contributing:
-
-- [Code of Conduct](https://github.com/MOD-Magazine/MOD-Magazine/blob/main/CODE-OF-CONDUCT.md)
-- [Writing Style Guide](https://github.com/MOD-Magazine/MOD-Magazine/blob/main/WRITING-STYLE-GUIDE.md)
+This repository holds the text that goes into each issue. If you wish to contribute, please see [CONTRIBUTING.md](https://github.com/MOD-Magazine/MOD-Magazine/blob/main/CONTRIBUTING.md)

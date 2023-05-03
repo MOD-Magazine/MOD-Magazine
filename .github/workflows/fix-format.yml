@@ -1,0 +1,26 @@
+name: Format
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Tooling
+        uses: ./.github/actions/setup
+
+      - name: Format
+        run: prettier --write .
+        
+      - name: Commit Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Format documents
+          new_branch: ${{ github.ref }}
+      
