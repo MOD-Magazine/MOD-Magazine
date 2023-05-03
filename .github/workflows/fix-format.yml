@@ -19,11 +19,10 @@ jobs:
 
       - name: Format
         run: prettier --write .
-        
+
       - name: Commit Changes
         uses: EndBug/add-and-commit@v9
         with:
           message: Format documents
           committer_name: GitHub Actions
           committer_email: actions@github.com
-      

@@ -3,9 +3,9 @@ name: Check Format
 on:
   pull_request:
 
-permissions: 
+permissions:
   actions: write
-  pull-requests: write 
+  pull-requests: write
 
 jobs:
   check:
@@ -20,7 +20,7 @@ jobs:
         with:
           issue-number: ${{ github.event.number }}
           comment-author: github-actions
-      
+
       - name: Setup Tooling
         if: steps.check-comment.outputs.comment-id != 0
         uses: ./.github/actions/setup

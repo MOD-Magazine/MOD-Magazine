@@ -1,12 +1,12 @@
 name: Setup
 description: Initial setup for workflows
 
-runs: 
+runs:
   using: composite
   steps:
     - name: Setup Node
       uses: actions/setup-node@v3
-      with:   
+      with:
         node-version: 18
     - name: Install Prettier
       shell: bash
