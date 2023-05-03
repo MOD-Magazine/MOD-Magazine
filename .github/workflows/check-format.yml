@@ -22,17 +22,17 @@ jobs:
           comment-author: github-actions
 
       - name: Setup Tooling
-        if: steps.check-comment.outputs.comment-id != ""
+        if: steps.check-comment.outputs.comment-id == ''
         uses: ./.github/actions/setup
 
       - name: Check Formatting
-        if: steps.check-comment.outputs.comment-id != ""
+        if: steps.check-comment.outputs.comment-id == ''
         id: check
         continue-on-error: true
         run: prettier --check .
 
       - name: Comment on PR
-        if: ${{ steps.check.outcome == "failure" && steps.check-comment.outputs.comment-id != "" }}
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outputs.comment-id == '' }}
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |

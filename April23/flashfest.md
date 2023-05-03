@@ -1,16 +1,47 @@
-# FlashFest organised for April Fools’ snapshot
+---
+title: 23w13a_or_b_and_FlashFest
+author: Jamalam
+---
 
 This month of course comes with April Fools' Day, and that means a Minecraft
-April Fools' update! In this year's offering we saw a feature in which players
-regularly vote on "proposals", each of which would make a small change to the
-game, ranging from changing the colour of grass to... turning the game French?
-C'est bizarre. Anyway, with this snapshot came an impromptu ModFest, dubbed a
+April Fools' snapshot! In this year's offering we saw the "Vote Update", in which players
+regularly vote on "proposals", each of which changes the
+game, ranging from changing the colour of grass, to activating the moon, to...turning the game French?
+C'est bizarre.
+
+Anyway, with this snapshot came an impromptu ModFest, dubbed a
 "FlashFest". The competition gave contestants 24 hours to make anything they
-could targeting this snapshot. Some of the brilliant and wildly surreal
-submissions included a "Bottle of Gender" (what), a mod that allows proposals to
-be converted to items, and then shot out of a gun (???) and a mod with a
-proposal which instils a sudden generosity into villagers, making them offer all
-trades for free (the most unrealistic one by far). The competition was a great
+could with this snapshot. Let's look at some of the entries!
+
+## sschr15
+
+Our very own sschr15, who has written a couple of articles for this issue, made a rule called "Constant Jeb". And, yes, you guessed correctly. It makes every entity have the Jeb sheep effect constantly. Poor cow.
+
+![Constant Jeb: Cow](assets/constant_jeb_cow.png)
+
+They also made a rule that makes trading free. This is perhaps the most unrealistic rule of them all (I'm looking at you, villager charging 34 emeralds for a wooden hoe).
+
+![Free Trading!](assets/free_trades.png)
+
+## LemmaEOF
+
+Lemma, the competition organiser, submitted the "Bottle of Gender" (https://modrinth.com/mod/bottle-of-gender). By brewing light blue dye into a bottle of Dragon's Breath, you can now obtain this mysterious brew. Drink it to change your skin, gender term, name color, and size.
+
+![Tiny gender?](assets/tiny_gender.png)
+
+So what's the coolest bit? "More genders can be added via datapacks". This is not a sentence I thought I would ever read, but it's good to hear that people can add more gender™ without programming.
+
+## Sylv
+
+Sylv made a mod called "Unobtanium". It really cries back to the era of Emerald armour and smelt-able rotten flesh mods. Unobtanium is an overpowered material that can be crafted with Netherite and...baguettes? Whatever floats your boat (or, slays your enemies in this case).
+
+![Unobtanium?](assets/unobtanium.png)
+
+These weren't the only submissions, but I thought they were the most showcase-able. For example, we also had the catchily-named "Machine-Vote-Gun-Chan", and EmoteCraft was ported to the snapshot.
+
+The competition was a great
 success, and we hope to see more of these FlashFests in the future - if you want
-to see all the submissions, go and check out ModFest's Discord
-(https://discord.gg/gn543Ee).
+to see all the submissions, check out ModFest's Discord
+(https://discord.gg/gn543Ee). For now, here's oddly-sized Alex and EmoteCraft to wave goodbye.
+
+![EmoteCraft](assets/emotecraft.png)
