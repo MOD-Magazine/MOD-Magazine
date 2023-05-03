@@ -4,8 +4,8 @@ _[Code of Conduct](https://github.com/MOD-Magazine/MOD-Magazine/blob/main/CODE-O
 
 Thank you for your interest in contributing to MOD!. We recommend reaching out [over Discord](https://discord.gg/mNQhSt6xY2) before sending any pull requests, so we can check your idea fits with our plans. You can contribute in a variety of ways:
 
-- Writing articles.
-- Collecting information for articles (e.g. reviews), without the commitment of having to write them yourself.
+- Writing articles, or taking on a larger role as an editor.
+- Collecting information or informing for articles (e.g. reviews), without the commitment of having to write them yourself.
 - [The website](https://github.com/MOD-Magazine/mod-magazine.github.io).
 - Design.
 
