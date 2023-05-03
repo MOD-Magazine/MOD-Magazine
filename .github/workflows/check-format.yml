@@ -1,0 +1,39 @@
+name: Check Format
+
+on:
+  pull_request:
+
+permissions:
+  actions: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Find Previous Comment
+        uses: peter-evans/find-comment@v2
+        id: check-comment
+        with:
+          issue-number: ${{ github.event.number }}
+          comment-author: github-actions
+
+      - name: Setup Tooling
+        if: steps.check-comment.outputs.comment-id != 0
+        uses: ./.github/actions/setup
+
+      - name: Check Formatting
+        if: steps.check-comment.outputs.comment-id != 0
+        id: check
+        continue-on-error: true
+        run: prettier --check .
+
+      - name: Comment on PR
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outputs.comment-id != 0 }}
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            This pull request contains files that are not formatted correctly and will be formatted automatically if the pull request is merged. Authors: you do not need to do anything.
