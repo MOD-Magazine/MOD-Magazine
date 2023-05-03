@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Setup Tooling
         uses: ./.github/actions/setup
