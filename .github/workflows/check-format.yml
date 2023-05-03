@@ -14,50 +14,26 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Download Comment Flag
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          name: PR_COMMENT
-          path: PR_COMMENT
-          commit: HEAD~1
-          workflow_conclusion: ""
-          if_no_artifact_found: ignore
-
-      - name: Check if Comment Flag is Set
+      - name: Find Previous Comment
+        uses: peter-evans/find-comment@v2
         id: check-comment
-        continue-on-error: true
-        run: cat PR_COMMENT/COMMENTED_ON_PR
+        with:
+          issue-number: ${{ github.event.number }}
+          comment-author: github-actions
       
       - name: Setup Tooling
-        if: steps.check-comment.outcome != 'success'
+        if: steps.check-comment.outputs.comment-id != 0
         uses: ./.github/actions/setup
 
       - name: Check Formatting
-        if: steps.check-comment.outcome != 'success'
+        if: steps.check-comment.outputs.comment-id != 0
         id: check
         continue-on-error: true
         run: prettier --check .
 
       - name: Comment on PR
-        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success' }}
+        if: ${{ steps.check.outcome == 'failure' && steps.check-comment.outputs.comment-id != 0 }}
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: |
             This pull request contains files that are not formatted correctly and will be formatted automatically if the pull request is merged. Authors: you do not need to do anything.
-      
-      # Store the fact that we have commented on the PR 
-      # so that we can skip the comment if this action is run again
-      - name: Create Comment Flag
-        if: ${{ (steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success') || steps.check-comment.outcome == 'success' }}
-        run: |
-          mkdir -p PR_COMMENT
-          echo "my name is skylar white yo" > PR_COMMENT/COMMENTED_ON_PR
-
-      # If we have already commented on the PR, then we don't need to do anything else
-      - name: Upload Comment Flag
-        uses: actions/upload-artifact@v3
-        if: ${{ (steps.check.outcome == 'failure' && steps.check-comment.outcome != 'success') || steps.check-comment.outcome == 'success' }}
-        with:
-          name: PR_COMMENT
-          path: PR_COMMENT
