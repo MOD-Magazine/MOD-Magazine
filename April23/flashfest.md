@@ -15,7 +15,7 @@ could with this snapshot. Let's look at some of the entries!
 
 ## sschr15
 
-Our very own sschr15, who has written a couple of articles for this issue, made a rule called "Constant Jeb". And, yes, you guessed correctly. It makes every entity have the Jeb sheep effect constantly. Poor cow.
+sschr15 made a rule called "Constant Jeb". And, yes, you guessed correctly. It makes every entity have the Jeb sheep effect constantly. Poor cow.
 
 ![Constant Jeb: Cow](assets/constant_jeb_cow.png)
 
