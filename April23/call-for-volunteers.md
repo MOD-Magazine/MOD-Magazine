@@ -31,7 +31,7 @@ part of a community? We want to grow our volunteer team and community. We need:
 
 - Community Members
 
-  The community is one of the most important parts of a project like this. 
+  The community is one of the most important parts of a project like this.
   We need people in touch with all corners of the community, feeding us news and
   cool things! Coming up with magazine articles takes work, from selecting the
   mods of the month to deciding on the headline article, lots of time is put in.
