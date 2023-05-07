@@ -8,6 +8,7 @@ runs:
       uses: actions/setup-node@v3
       with:
         node-version: 18
+        
     - name: Install Prettier
       shell: bash
       run: npm install -g prettier
