@@ -70,7 +70,7 @@ Aged is a modpack revolving around medieval times, with mods added for realism -
 
 ![A player keeping warm by the campfire](./assets/aged-campfire.png)
 
-Food can spoil, you can freeze to death, you need to purify water to drink - the list is never ending if you want to achieve basic survival in Aged, but that sort of thing appeals to many players. 
+Food can spoil, you can freeze to death, you need to purify water to drink - the list is never ending if you want to achieve basic survival in Aged, but that sort of thing appeals to many players.
 
 ![The heat here will hurt you](./assets/aged-nether.png)
 
@@ -110,7 +110,7 @@ Power Networks is another example of server-side magic. It adds coils and wires 
 
 ## [VECTOR](https://modrinth.com/shader/vector)
 
-VECTOR! A shader that describes itself as a way to pretend like it's the 1980s. Fire up the old IBM or Apple II, it's gamin' time! 
+VECTOR! A shader that describes itself as a way to pretend like it's the 1980s. Fire up the old IBM or Apple II, it's gamin' time!
 
 Here's a screenshot without Vector enabled:
 
