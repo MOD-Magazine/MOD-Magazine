@@ -129,3 +129,7 @@ You just got vectored. Ohhhhhhhh yeahhhh!!! Are Despicable Me references still c
 Adding extra biomes to your Minecraft world is one of the best ways to enhance your experience. Lets face it: no matter how sandbox-y a game is, it's always in need of new content to spice up the experience. Regions Unexplored is a new multiloader mod that adds over 70 new biomes.
 
 ![A collage of biomes from Regions Unexplored](./assets/regions-unexplored-2.png)
+
+---
+
+These projects were picked solely by me, Jamalam. We want to expand our reach for next time; do you have suggestions for projects to be featured in the next issue? Contact us on Discord at [https://mod-magazine.github.io/discord](https://mod-magazine.github.io/discord).
