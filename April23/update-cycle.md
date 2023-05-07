@@ -17,10 +17,6 @@ The new update cycle pushes out small updates more frequently for versions like 
 
 Mojang releases updates for various reasons. These updates may include bug fixes, new features, and improvements to game performance. But modders often face challenges when Mojang changes their game and interferes with modder code. The modder must tweak their code until the game recognises the input. If Minecraft cannot recognize the input, it may crash the game or break, making the mod (and sometimes the game itself) useless and broken.
 
-## Modders and Minecraft Updates
-
-The modding decline in Minecraft is also attributed to the fact that there are fewer new players coming into the game, which means that there are fewer people interested in creating and using mods. Additionally, the introduction of the Minecraft Marketplace has made it difficult for modders to monetize their work, which has discouraged many from continuing to create mods for the game.
-
 ## The Effect the Update Cycle had on Modders
 
 When Mojang releases an update, modders must update their mods to ensure that they are compatible with the latest version of the game. This can be a time-consuming process, as modders must review and update their code to work with any changes made in the update. Modders also face the challenge of keeping up with the increased frequency of updates due to Mojangs new update strategy.
