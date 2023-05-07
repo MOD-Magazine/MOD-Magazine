@@ -35,15 +35,15 @@ Rust btw).
 
 Species is a mod that adds more mobs, a mob mod if you will - say that as fast as you can 10 times. It is being developed by a large team who plan to release updates, each with a specific theme. I wish more mods did this, as it creates a really nice community and feel.
 
-![Species Creatures as of the first update](./assets/species.png)
+![The creatures in Species, as of the first update](./assets/species-creatures.png)
 
 Documentation is still a work in progress, but my personal favourites are the Birt and Limpet. The Birt is so cute and reminds me of Flappy Bird, while the Limpet is just goofy. Look at those silly eyes.
 
-![Birt!](./assets/birt.png)
+![A Birt!](./assets/species-birt.png)
 
 I'm excited to see what comes next for Species, hopefully it will involve more silly-eyed creatures.
 
-![Silly little Limpet](./assets/limpet.png)
+![A silly little Limpet](./assets/species-limpet.png)
 
 ## [Physics Toys](https://modrinth.com/mod/physics-toys)
 
@@ -62,15 +62,15 @@ I, for one, cannot wait to see what the resident server wizard does next - I hea
 
 Aged is a modpack revolving around the medieval times, with mods added for realism - both water and temperature are factors that you need to look out for if you want to survive.
 
-![An Aged player sat by the campfire](./assets/aged-1.png)
+![A player keeping warm by the campfire](./assets/aged-campfire.png)
 
 Food can spoil, you can freeze to death, you need to purify water to drink - the list is never ending if you want to achieve basic survival in Aged, but that sort of thing is appealing to a lot of players. 
 
-![The heat here will hurt you](./assets/aged-3.png)
+![The heat here will hurt you](./assets/aged-nether.png)
 
 If you decide to play Aged, you will be subject to all 4 seasons of the Minecraft world, as well as being able to earn XP points to level up alongside the monsters in the world, who will also get stronger with time. You will also be able to simulate the hardest survival challenge of them all: a job.
 
-![A harsh winter](./assets/aged-2.png)
+![A harsh winter](./assets/aged-winter.png)
 
 Aged also has an official multiplayer server, for those of you who still want to freeze to death, but with the power of friendship by your side. I think Aged might be my goto next time I want to play Minecraft - it seems well crafted and polished.
 
@@ -78,29 +78,29 @@ Aged also has an official multiplayer server, for those of you who still want to
 
 Finally, the the death of Optifine draws closer. Entity Model Features is a multiloader mod available for Fabric, Quilt, and Forge which adds support for Optifine's custom entity model (CEM) format, which allows resource packs to modify entity models.
 
-![A pig with cool ears!](./assets/entity-model-features.png)
+![That's not a normal pig...](./assets/entity-model-features-pig.png)
 
 EMF is only in beta at the moment, and a lot of resource packs won't work, but in my opinion we're well on the way to Optifine being phased out for better alternatives.
 
-![Fresh Animations running on Entity Model Features](./assets/fresh-animations.png)
+![Fresh Animations runs on Entity Model Features](./assets/entity-model-features-fresh-animations.png)
 
 ## [FTB Skies](https://www.feed-the-beast.com/modpacks/103-ftb-skies)
 
 Feed the Beast make a _lot_ of modpacks, but even so, their latest offering seems like one which will be used and remembered for a while. Much like SkyFactory, players of Skies will spawn on a floating island with limited resources and plenty of challenges.
 
-![FTB Skies 1](./assets/ftb-skies-1.png)
+![A huge airship](./assets/ftb-skies-airship.png)
 
 Skies includes the staple mods: Mekanism, Botania, RF Tools, and Create - amongst many others. It also includes a Feed the Beast exclusively in-game event system to surprise (or terrify) you with new experiences.
 
 > With a perfect blend of magic and technology, quests, and custom events, the experience is unforgettable. _- FTB Team_
 
-![FTB Skies 2](./assets/ftb-skies-collage.png)
+![A collage of FTB Skies experiences](./assets/ftb-skies-collage.png)
 
 ## [Power Networks](https://modrinth.com/mod/power-networks)
 
 Power Networks is another example of server-side magic. It adds coils and wires that can be used to build energy networks, server-side.
 
-![Power networks showcase](./assets/power-networks.png)
+![Power Networks allows you to create coils and wires](./assets/power-networks.png)
 
 ## [VECTOR](https://modrinth.com/shader/vector)
 
@@ -118,8 +118,8 @@ You just got vectored. Ohhhhhhhh yeahhhh!!! Are Despicable Me references still c
 
 ## [Regions Unexplored](https://modrinth.com/mod/regions-unexplored)
 
-![Redwoods by the river](./assets/regions-unexplored-2.png)
+![Redwood trees by the river](./assets/regions-unexplored-1.png)
 
 Adding extra biomes to your Minecraft world is one of the best ways to enhance your experience. Lets face it: no matter how sandbox-y a game is, it's always in need of new content to spice up the experience. Regions Unexplored is a new multiloader mod that adds over 70 new biomes.
 
-![A promotional image from the Regions Unexplored Modrinth page](./assets/regions-unexplored-1.png)
+![A collage of biomes from Regions Unexplored](./assets/regions-unexplored-2.png)
