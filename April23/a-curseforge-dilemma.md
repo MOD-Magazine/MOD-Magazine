@@ -1,5 +1,5 @@
 ---
-title: TBD
+title: A Curseforge Dilemma
 author: Jamalam
 ---
 

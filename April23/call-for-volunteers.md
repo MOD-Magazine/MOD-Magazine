@@ -41,4 +41,4 @@ There are no commitments for these roles. If you only want to write one article
 or want a month off, that's fine, just tell us.
 
 So, what do you say? Want to volunteer with us and make something great? Contact
-us on Discord at https://mod-magazine.github.io/discord.
+us on Discord at [https://mod-magazine.github.io/discord](https://mod-magazine.github.io/discord).
