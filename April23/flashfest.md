@@ -17,17 +17,17 @@ could with this snapshot. Let's look at some of the entries!
 
 sschr15 made a rule called "Constant Jeb". And, yes, you guessed correctly. It makes every entity have the Jeb sheep effect constantly. Poor cow.
 
-![Constant Jeb: Cow](assets/constant_jeb_cow.png)
+![Constant Jeb: Cow](assets/constant-jeb-cow.png)
 
 They also made a rule that makes trading free. This is perhaps the most unrealistic rule of them all (I'm looking at you, villager charging 34 emeralds for a wooden hoe).
 
-![Free Trading!](assets/free_trades.png)
+![Free Trading!](assets/free-trades.png)
 
 ## LemmaEOF
 
 Lemma, the competition organiser, submitted the "Bottle of Gender" (https://modrinth.com/mod/bottle-of-gender). By brewing light blue dye into a bottle of Dragon's Breath, you can now obtain this mysterious brew. Drink it to change your skin, gender term, name color, and size.
 
-![Tiny gender?](assets/tiny_gender.png)
+![Tiny gender?](assets/tiny-gender.png)
 
 So what's the coolest bit? "More genders can be added via datapacks". This is not a sentence I thought I would ever read, but it's good to hear that people can add more gender™ without programming.
 
