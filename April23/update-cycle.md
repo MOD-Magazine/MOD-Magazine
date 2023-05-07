@@ -5,7 +5,7 @@ author: Zxhir
 
 # Introduction
 
-Modding has been an integral part of the Minecraft community since its inception. One of the reasons for its success is the ability for players to create their own modifications, or "mods," that change the game in various ways. These mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the recent update cycle by Mojang has had a significant impact on modders, and many are struggling to keep up with the changes.
+Modding has been an integral part of the Minecraft community since its inception. One of the reasons for its success is the ability for players to create their own modifications, or "mods," that change the game in various ways. These mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the new update cycle recently introduced by Mojang has had a significant impact on modders, and many are struggling to keep up with the changes.
 
 The new update cycle, which pushes out small updates more frequently, has made it difficult for modders to maintain their mods. When Mojang changes the game, it can interfere with the modders' code. They must tweak their code to work with the new update. This process can be time-consuming and frustrating, and it can also make mods useless and broken if Minecraft cannot recognize the input.
 
@@ -29,7 +29,7 @@ Modding is a significant aspect of the Minecraft community, with players using m
 
 Players have different preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. Mojang's new update cycle, which involves pushing out small updates sooner, has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. With the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
 
-The new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. However, with the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
+Modders need time to update their mods to work with the latest version of Minecraft. However, with the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
 
 Players who use mods are frustrated by the lack of compatibility with the latest version of Minecraft. They are forced to choose between updating their game and losing access to their favourite mods, or sticking with an older version of Minecraft and missing out on new features and improvements.
 
@@ -51,7 +51,7 @@ Overall, the impact of Mojang's new update cycle on modders is still up for deba
 
 # Conclusion
 
-It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt and continue making money, others have struggled to keep up with the constant changes and updates to the game.
+It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt, others have struggled to keep up with the constant changes and updates to the game.
 
 Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the update system creates for modders, they are putting little focus on making the workload easier for said creators. This means that modders will need to continue to adapt and find new ways to make their work compatible with the latest updates.
 
