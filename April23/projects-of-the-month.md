@@ -15,7 +15,13 @@ OK...so it didn't come out this month...or last month...or the month before
 that. Cobblemon came out in October last year, but we wanted to give it a
 mention since it has been gaining popularity recently.
 
-<!-- COBBLEMON IMAGES AND TEXT -->
+![A Gyarados](./assets/cobblemon-gyarados.png)
+
+Cobblemon is the modern Pixelmon solution, and with its large team and support for both Fabric and Forge, I can see it continuing to perform well. It is open source and designed to integrate better with Minecraft than previous Pokémon mods.
+
+![A Tauros](./assets/cobblemon-tauros.png)
+
+The community and interest around Cobblemon seems to be ever-growing, so I'm sure we will see constant work and community contributions to the project. Unless Nintendo takes a dislike to it, that is. Hopefully that won't happen, but if it does, I won't be surprised.
 
 ## [e4mc](https://modrinth.com/mod/e4mc)
 
