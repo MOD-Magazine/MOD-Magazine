@@ -19,7 +19,7 @@ jobs:
         id: check-comment
         with:
           issue-number: ${{ github.event.number }}
-          comment-author: github-actions
+          comment-author: github-actions[bot]
 
       - name: Setup Tooling
         if: steps.check-comment.outputs.comment-id == ''
