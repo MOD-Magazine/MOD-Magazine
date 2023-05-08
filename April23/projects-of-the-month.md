@@ -4,7 +4,7 @@ author: Jamalam
 ---
 
 It's time to look at our editor-picked projects of the month! These are a small
-selection of our personal favourite projects that came out recently - this is by
+selection of our personal favourites that came out recently - this is by
 no means an exhaustive list, go look for yourself as well!
 
 Do you know of any cool projects that you would like to be featured in next month's issue? Let us know on Discord at [https://mod-magazine.github.io/discord](https://mod-magazine.github.io/discord).
@@ -13,33 +13,33 @@ Do you know of any cool projects that you would like to be featured in next mont
 
 OK...so it didn't come out this month...or last month...or the month before
 that. Cobblemon came out in October last year, but we wanted to give it a
-mention since it has gained popularity recently.
+mention since it has been gaining popularity recently.
 
 ![A Gyarados](./assets/cobblemon-gyarados.png)
 
-Cobblemon is the modern Pixelmon solution, and with its large team and support for both Fabric and Forge, I can see it continuing to perform well. It is open source and designed to integrate better with Minecraft than previous Pokémon mods.
+Cobblemon is _the_ modern alternative to Pixelmon, and with its large team and support for both Fabric and Forge, I can see it continuing to develop and gain steam. It's open source and designed to integrate better with Minecraft than previous Pokémon mods.
 
 ![A Tauros](./assets/cobblemon-tauros.png)
 
-The community and interest around Cobblemon seems ever-growing, so I'm sure we will see constant work and community contributions to the project. Unless Nintendo takes a dislike to it, that is. Hopefully that won't happen, but if it does, I won't be surprised.
+The community around Cobblemon seems ever-growing, so I'm sure we will see constant work and community contributions to the project. Unless Nintendo takes a dislike to it, that is. Hopefully that won't happen, but if it does, I wouldn't be surprised.
 
 ## [e4mc](https://modrinth.com/mod/e4mc)
 
-e4mc actually came out this month, so we're off to a good start. This project is
-interesting both technically and for regular players: it allows you to open your
-LAN game to the wide world. That doesn't sound very cool, until you learn that
+e4mc _did_ come out this month, so we're off to a good start. This project is
+interesting both technically and for regular players: it allows you to open a
+LAN game to the whole wide world. That doesn't sound too special, until you learn that
 only the host needs e4mc installed. Your friends can connect with a vanilla
 client. Gone are the days of those terrible free server hosts. I wish.
 
-When you open a game to LAN, the mod will automatically send you a link in chat;
-use it as the server IP in the connect menu, and you're good! On the backend,
-e4mc uses a websocket server implemented in Rust, which automatically makes it
+When you open a game to LAN, the mod will automatically send you an IP in chat;
+you can give it to your friends for them to be able to join your world like any other server! 
+On the backend, e4mc uses a websocket server implemented in Rust, which automatically makes it
 blazingly fast and better than every other piece of software ever created (I use
 Rust btw).
 
 ## [Species](https://modrinth.com/mod/species)
 
-Species is a mod that adds more mobs, a mob mod if you will - say that as fast as you can 10 times. It is being developed by a large team who plan to release updates, each with a specific theme. I wish more mods did this, as it creates a really nice community and feel.
+Species is a mod that adds more mobs, a mob mod if you will - say that as fast as you can 10 times. It is being developed by a large team who plan to release updates each with a specific theme. I wish more mods did this - it creates a really nice community and feel.
 
 ![The creatures in Species, as of the first update](./assets/species-creatures.png)
 
@@ -53,14 +53,14 @@ I'm excited to see what comes next for Species. Hopefully it will involve more s
 
 ## [Physics Toys](https://modrinth.com/mod/physics-toys)
 
-This one is seriously cool. Physics Toys lets you play with physics entirely on the server (you could even use e4mc to setup a testing game for your friends). I'm not sure what Patbox does to the server
+This one is seriously cool. Physics Toys lets you play with physics entirely server-side (you could even use e4mc to set up a testing game for your friends). I'm not sure what Patbox does to the server
 to make it do these things, but I do know that it's awesome. A picture is worth more than 1000 words:
 
 ![A pillager outpost being exploded](./assets/physics-toys.png)
 
-This server fuelled madness is powered by a healthy amount of packets (may God save your internet connection), Rayon (a well known physics library), and the new display entities added in a recent snapshot.
+All this madness is powered by Rayon (a well known physics library), a lot of packets, and the new display entities added in a recent snapshot.
 
-These new entities come in 3 varieties: block, item, and text. It'll be exciting to see what datapack-ers, mod creators, and server-side modders will do with these new tools in the coming months.
+These new entities come in 3 variants: block, item, and text. It'll be exciting to see what datapack-ers, mod creators, and server-side modders will do with these new tools in the coming months.
 
 I, for one, cannot wait to see what the resident server wizard does next - I hear a tech mod is on the horizon at some point.
 
@@ -78,11 +78,11 @@ If you decide to play Aged, you will be subject to all 4 seasons of the Minecraf
 
 ![A harsh winter](./assets/aged-winter.png)
 
-Aged also has an official multiplayer server, for those of you who still want to freeze to death, but with the power of friendship by your side. I think Aged might be my choice next time I want to play Minecraft - it seems well crafted and polished.
+Aged also has an official multiplayer server, for those of you who want to freeze to death with the power of friendship by your side. I think Aged might be my choice next time I want to play Minecraft - it seems well crafted and polished.
 
 ## [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 
-Finally, the death of Optifine draws closer. Entity Model Features is a multiloader mod available for Fabric, Quilt, and Forge that adds support for Optifine's custom entity model (CEM) format, which allows resource packs to modify entity models.
+Entity Model Features is a multiloader mod available for Fabric, Quilt, and Forge that adds support for Optifine's custom entity model (CEM) format, which allows resource packs to modify entity models.
 
 ![That's not a normal pig...](./assets/entity-model-features-pig.png)
 
@@ -104,7 +104,7 @@ Skies includes the staple mods: Mekanism, Botania, RF Tools, and Create - amongs
 
 ## [Power Networks](https://modrinth.com/mod/power-networks)
 
-Power Networks is another example of server-side magic. It adds coils and wires that can be used to build energy networks, server-side.
+Power Networks is another example of server-side magic. It adds coils and wires that can be used to build energy networks, all server-side.
 
 ![Power Networks allows you to create coils and wires](./assets/power-networks.png)
 
@@ -120,13 +120,13 @@ And the same scene with Vector:
 
 ![With Vector](./assets/VECTOR-vector.png)
 
-You just got vectored. Ohhhhhhhh yeahhhh!!! Are Despicable Me references still cool?
+You just got vector-ed. Ohhhhhhhh yeahhhh!!! Are Despicable Me references still cool?
 
 ## [Regions Unexplored](https://modrinth.com/mod/regions-unexplored)
 
 ![Redwood trees by the river](./assets/regions-unexplored-1.png)
 
-Adding extra biomes to your Minecraft world is one of the best ways to enhance your experience. Lets face it: no matter how sandbox-y a game is, it's always in need of new content to spice up the experience. Regions Unexplored is a new multiloader mod that adds over 70 new biomes.
+Adding extra biomes to your Minecraft world is one of the best ways to enhance your experience. Lets face it: no matter how sandbox-ey a game is, there's always potential for new content to spice it up. Regions Unexplored is a new multiloader mod that adds over 70 new biomes.
 
 ![A collage of biomes from Regions Unexplored](./assets/regions-unexplored-2.png)
 
