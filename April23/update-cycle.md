@@ -25,7 +25,7 @@ Despite all of these problems, there are also long-term benefits for modders in 
 
 ## Impact on players
 
-Players have showcased varied preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. After all, Mojang's new update cycle has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among those who use mods.  
+Players have showcased varied preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. After all, Mojang's new update cycle has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among those who use mods.
 
 As mods now need more effort to be updated to newer versions of the game, some modders end up lagging behind, unable to deliver timely updates to their mods. Players who use those mods are now forced to choose between updating their game and losing access to some of their favourite mods or sticking with an older version of Minecraft and missing out on improvements introduced in the update.
 
@@ -47,6 +47,6 @@ Overall, much of the modding community isn't in favour of Mojang's changes, but 
 
 It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt, others have struggled to keep up with the increased rate of updates to the game.
 
-Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the new system creates for modders, they are not directly focused on facilitating modding as much as improving their own workflow - though it should be noted that they have never been against modding and *have* made efforts to improve modders' experience in the past. 
+Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the new system creates for modders, they are not directly focused on facilitating modding as much as improving their own workflow - though it should be noted that they have never been against modding and _have_ made efforts to improve modders' experience in the past.
 
 Modders will need to continue to adapt and find ways to update their mods for new releases quicker and easier. What we can always do is wait and see how Mojang's changes impact the community in the long run.

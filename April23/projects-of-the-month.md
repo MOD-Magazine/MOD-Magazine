@@ -32,7 +32,7 @@ only the host needs e4mc installed. Your friends can connect with a vanilla
 client. Gone are the days of those terrible free server hosts. I wish.
 
 When you open a game to LAN, the mod will automatically send you an IP in chat;
-you can give it to your friends for them to be able to join your world like any other server! 
+you can give it to your friends for them to be able to join your world like any other server!
 On the backend, e4mc uses a websocket server implemented in Rust, which automatically makes it
 blazingly fast and better than every other piece of software ever created (I use
 Rust btw).
