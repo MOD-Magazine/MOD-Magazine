@@ -3,11 +3,11 @@ title: Call for Volunteers
 author: Jamalam
 ---
 
-To conclude our first MOD! Magazine issue, I'd first like to thank the tiny
-team! We couldn't have done this with one less person, so thank you for your
+To conclude our first MOD! Magazine issue, I'd first like to thank our tiny
+team! We couldn't have done this with one less person, so thank you everyone for your
 faith.
 
-With that said, we need you! This issue is something of a proof-of-concept to
+With that said, we need _you_! This issue is something of a proof-of-concept to
 draw attention to the project; we want to make the best thing we can, and for
 that we need more people.
 
@@ -16,7 +16,7 @@ part of a community? We want to grow our volunteer team and community. We need:
 
 - Writers & Editors
 
-  Writers are in charge of...well writing. You can come up with your own ideas
+  Writers are in charge of... well, writing. You can come up with your own ideas
   or volunteer to write an pre-defined article - all we ask is that you follow our
   writing guidelines and communicate with our editors. Being an editor is a
   higher level role yet to be defined, but we know it will involve more people
@@ -29,7 +29,7 @@ part of a community? We want to grow our volunteer team and community. We need:
   could range from sending back-of-the-napkin concepts to leading the website
   team; if you think you have an eye for design, why not come and help?
 
-- Community Members
+- Anyone at all!
 
   The community is one of the most important parts of a project like this.
   We need people in touch with all corners of the community, feeding us news and
