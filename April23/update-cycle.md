@@ -5,54 +5,48 @@ author: Zxhir
 
 # Introduction
 
-Modding has been an integral part of the Minecraft community since its inception. One of the reasons for its success is the ability for players to create their own modifications, or "mods," that change the game in various ways. These mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the new update cycle recently introduced by Mojang has had a significant impact on modders, and many are struggling to keep up with the changes.
+Modding has been an integral part of the Minecraft community since its inception. Mods can range from simple cosmetic changes to complete overhauls of the game's mechanics. They are often created by independent developers who work tirelessly to improve the game for others. However, the new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.
 
-The new update cycle, which pushes out small updates more frequently, has made it difficult for modders to maintain their mods. When Mojang changes the game, it can interfere with the modders' code. They must tweak their code to work with the new update. This process can be time-consuming and frustrating, and it can also make mods useless and broken if Minecraft cannot recognize the input.
+In this article, we will explore the effect of those changes on modders and the Minecraft modding community. We'll also look at the problems modders face due to it and potential solutions to those problems.
 
-While the new update cycle has been beneficial for vanilla players and the development team, it has had a negative impact on modders. In this article, we will explore the effect of the update cycle on modders and how it has impacted the Minecraft modding community. We will also look at the challenges modders face and the potential solutions that can help them overcome them.
+## Mojang's New Update Cycle
 
-## Mojang's Update Cycle
+The new update cycle's goal is to push out more small updates with more focus on deeper changes to the game's code. This is helpful to vanilla players and the developers at Mojang, but the decision has gained controversy among modders.
 
-The new update cycle pushes out small updates more frequently for versions like 1.19.3. This is helpful for vanilla players and probably for the dev team, but it has a significant impact on modders. The modding community or players often rely on mods that are outdated and no longer work with the latest version of the game. This means that modders have to constantly update their mods to be compatible with the latest version of the game.
+Updates to Minecraft include bug fixes, performance improvements and sometimes new features. All of this unaviodably comes with changes to the game's code, which make some mods malfunction or break completely on new versions unless the mod's author puts their time into tweaking the mod to work with changes in the base game.
 
-Mojang releases updates for various reasons. These updates may include bug fixes, new features, and improvements to game performance. But modders often face challenges when Mojang changes their game and interferes with modder code. The modder must tweak their code until the game recognises the input. If Minecraft cannot recognize the input, it may crash the game or break, making the mod (and sometimes the game itself) useless and broken.
+Unfortunately for modders, with the new update cycle Mojang has seriously decided to focus on the former two - bug fixes and performance improvements - which tend to need a lot of changes to code, so mods break way more often on newer versions and require more work to maintain.
 
-## The Effect the Update Cycle had on Modders
+## The Effect of the New Update Cycle on Modders
 
-When Mojang releases an update, modders must update their mods to ensure that they are compatible with the latest version of the game. This can be a time-consuming process, as modders must review and update their code to work with any changes made in the update. Modders also face the challenge of keeping up with the increased frequency of updates due to Mojangs new update strategy.
+When Mojang releases an update, modders have to update their mods to ensure they are compatible with all changes introduced in the update. Reviewing all of your code to adjust it to work with another version of the game can be a tedious process, and now, due to the increased amount of updates with an increased amount of changes, maintaining your mod is as hard as ever.
 
-Despite the challenges, there are also benefits for modders in the update cycle. Updates can provide new opportunities for modders to create mods that take advantage of new features and improvements in the game. Additionally, updates can help keep the game fresh and interesting for players, which can increase the demand for mods as a result. Overall, Mojang updates can have both positive and negative effects on modders. While updates can provide new opportunities and keep the game fresh, they can also create challenges and require modders to invest time and resources into updating their mods.
+Despite all of these problems, there are also long-term benefits for modders in the new update cycle. It'll allow Mojang to sort out long-standing bugs and other issues in the game, which will allow not only them, but also modders to have an easier time adding new mechanics and content to it.
 
 ## Impact on players
 
-Modding is a significant aspect of the Minecraft community, with players using mods to enhance their gameplay experience. However, Mojang's new update release cycle has had a significant impact on players, particularly those who rely on mods.
+Players have showcased varied preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. After all, Mojang's new update cycle has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among those who use mods.  
 
-Players have different preferences when it comes to updates. Some prefer small, frequent updates, while others prefer larger, more significant updates. Mojang's new update cycle, which involves pushing out small updates sooner, has been well-received by the majority of vanilla players. However, the new update cycle has caused confusion and frustration among players who use mods. Modders need time to update their mods to work with the latest version of Minecraft. With the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
-
-Modders need time to update their mods to work with the latest version of Minecraft. However, with the new update cycle, modders are struggling to keep up with the updates, leading to mods that are incompatible with the latest version of Minecraft.
-
-Players who use mods are frustrated by the lack of compatibility with the latest version of Minecraft. They are forced to choose between updating their game and losing access to their favourite mods, or sticking with an older version of Minecraft and missing out on new features and improvements.
-
-Furthermore, the new update cycle has caused confusion among players who are not familiar with the mods. They may not understand why their favourite mods no longer work, leading to frustration and disappointment.
+As mods now need more effort to be updated to newer versions of the game, some modders end up lagging behind, unable to deliver timely updates to their mods. Players who use those mods are now forced to choose between updating their game and losing access to some of their favourite mods or sticking with an older version of Minecraft and missing out on improvements introduced in the update.
 
 # Modders' opinions
 
-Modders in the Minecraft modding community have shared their feedback on the update cycle with us.
+Many modders have shared their opinion on the update cycle with us.
 
-Some modders have praised Mojang's new update cycle for providing players with more frequent updates and bug fixes. This, in turn, creates a better gaming experience for players. Additionally, some modders believe that the new update cycle can help modders by providing them with a more stable platform to work with.
+Some modders have praised it for providing more frequent updates and bug fixes as this, in turn, creates a better experience for players. Additionally, some believe that the new update cycle can help modders by providing them with a more stable codebase to work with.
 
 > Mojang's new schedule is much more flexible in that it allows them to fix bugs and develop features in parallel. No longer will they have to work a few silent months to release a big update all at once, now they can have a more streamlined release process with smaller, more often updates where all experimental content wise changes are offloaded into the experimental datapack instead of only snapshots, which means we can use them sooner.
 
-On the other hand, some modders have expressed concern about the impact of the new update cycle on modders. One of the main concerns is that updates will cause mods to break more often, leading to frustration for both modders and players.
+On the other hand, some modders have expressed concern about the new update cycle. One of the main concerns is that updates will cause mods to break more often, leading to frustration for both modders and players.
 
 > It's not really giving mods a good period to "settle" which I believe is harmful to mod pack communities and servers while beneficial to vanilla players.
 
-Overall, the impact of Mojang's new update cycle on modders is still up for debate. While some modders have provided positive feedback, others have expressed concerns about the impact on modders.
+Overall, much of the modding community isn't in favour of Mojang's changes, but whether they end up good for the community or not is yet to be seen.
 
 # Conclusion
 
-It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt, others have struggled to keep up with the constant changes and updates to the game.
+It is clear that Mojang's update cycle has had a significant impact on modders. While some modders have been able to adapt, others have struggled to keep up with the increased rate of updates to the game.
 
-Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the update system creates for modders, they are putting little focus on making the workload easier for said creators. This means that modders will need to continue to adapt and find new ways to make their work compatible with the latest updates.
+Despite these challenges, Mojang's priority is the game itself. While they are aware of the problems that the new system creates for modders, they are not directly focused on facilitating modding as much as improving their own workflow - though it should be noted that they have never been against modding and *have* made efforts to improve modders' experience in the past. 
 
-The future of Minecraft modding remains uncertain. As the game continues to evolve and change, modders will need to find new ways to keep up with the latest updates and changes. Only time will tell how this will impact the community in the long run.
+Modders will need to continue to adapt and find ways to update their mods for new releases quicker and easier. What we can always do is wait and see how Mojang's changes impact the community in the long run.
