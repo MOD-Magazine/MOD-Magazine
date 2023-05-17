@@ -37,9 +37,7 @@ This repository contains the content of each issue. Our workflow is as follows:
    [website repository](https://github.com/MOD-Magazine/mod-magazine.github.io)
    to deploy the issue.
 
-This repository holds the text that goes into each issue. If you wish to
-contribute, please see
-[CONTRIBUTING.md](./CONTRIBUTING.md)
+This repository holds the text that goes into each issue.
 
 ## Contributing
 
@@ -56,3 +54,5 @@ commitment, but we'd prefer if you contacted us on
 You can also suggest projects and articles on our
 [Discord](https://mod-magazine.github.io/discord), if you don't want to do any
 of the above roles but still want to get involved.
+
+If you wish to contribute, please reach out and see [CONTRIBUTING.md](./CONTRIBUTING.md)
