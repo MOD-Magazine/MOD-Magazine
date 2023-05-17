@@ -1,19 +1,19 @@
-<center>
+<p align="center">
     <img width=180 src="./MOD! Logo Temporary.png" alt="Temporary MOD! Logo" />
-</center>
+</p>
 
-# <center>MOD! Magazine</center>
+# <p align="center">MOD! Magazine</p>
 
-**<center>MOD!: The magazine about all things modded Minecraft!</center>**
+**<p align="center">MOD!: The magazine about all things modded Minecraft!</p>**
 
-<center>
+<p align="center">
 <a href="https://mod-magazine.github.io">
     <img src="https://img.shields.io/badge/read-on%20our%20website-green" alt="Read: on our website" />
 </a>
 <a href="https://mod-magazine.github.io/discord">
     <img src="https://img.shields.io/discord/1076617537355251832" alt="Join us on Discord" />
 </a>
-</center>
+</p>
 
 - **Reviews**: learn about the latest projects in the modded and vanilla world
   with our _"Projects of the Month"_.
