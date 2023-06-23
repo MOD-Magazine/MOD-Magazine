@@ -1,6 +1,6 @@
 ---
 title: A Curseforge Dilemma
-author: Jamalam
+author: Jamalam360
 ---
 
 A collection of large Fabric mods have been jumping ship from Curseforge. It's

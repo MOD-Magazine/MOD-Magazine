@@ -1,6 +1,6 @@
 ---
 title: Projects of the Month
-author: Jamalam
+author: Jamalam360
 ---
 
 It's time to look at our editor-picked projects of the month! These are a small
