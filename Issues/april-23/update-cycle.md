@@ -1,6 +1,6 @@
 ---
 title: The Effect of Mojang's New Update Cycle on Modders
-author: Zxhir
+author: Imzxhir
 ---
 
 # Introduction

@@ -1,6 +1,6 @@
 ---
-title: 23w13a_or_b_and_FlashFest
-author: Jamalam
+title: 23w13a or b and FlashFest
+author: Jamalam360
 ---
 
 This month of course comes with April Fools' Day, and that means a Minecraft

@@ -1,6 +1,6 @@
 ---
 title: Call for Volunteers
-author: Jamalam
+author: Jamalam360
 ---
 
 To conclude our first MOD! Magazine issue, I'd first like to thank our tiny
