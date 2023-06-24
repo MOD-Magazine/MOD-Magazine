@@ -8,7 +8,7 @@
 4. **Use correct spelling, punctuation and grammar**
 5. **Do not plagiarise**
 
-## 1. Be clear and concise
+### 1. Be clear and concise
 
 Avoid excessively wordy or ambiguous language; the sentence should be clear to
 understand, even for a non-native speaker.
@@ -42,7 +42,7 @@ sophisticated.
 | _I bought a dog for the purpose of providing me with companionship._ | **I bought a dog for companionship.**          |
 | _In my own personal opinion, ..._                                    | **In my opinion, ...** or **I think that ...** |
 
-## 2. Avoid unnecessary bias
+### 2. Avoid unnecessary bias
 
 - **Avoid editorialising**
 
@@ -67,7 +67,7 @@ and has been discouraged by
 | _Chairman_                | **Chairperson** (if the gender of the individual is not explicitly clear) |
 | _A person with blindness_ | **A blind person**                                                        |
 
-## 3. Use appropriate language
+### 3. Use appropriate language
 
 Being laidback and fun with the writing style is fine (it is a magazine, after
 all), but avoid any of the following:
@@ -77,7 +77,7 @@ all), but avoid any of the following:
 - Textspeak (e.g. TTYL)
 - Slang or abbreviations
 
-## 4. Use correct spelling, punctuation and grammar
+### 4. Use correct spelling, punctuation and grammar
 
 - **All sentences should be syntactically and grammatically correct**
 
@@ -102,8 +102,37 @@ all), but avoid any of the following:
 | ---------------------------- | ------------------------------- |
 | _Apples, bananas or oranges_ | **Apples, bananas, or oranges** |
 
-## 5. Do not plagiarise
+### 5. Do not plagiarise
 
-Do **not** copy from other sources, and do not use AI such as ChatGPT. If plagiarism or AI use is suspected, the text submitted will be ran against software to detect this. If plagiarism or AI use is detected, you will be blocked from contributing to MOD! Magazine.
+Do **not** copy from other sources, and do not use AI such as ChatGPT. AI can
+create hard to follow writing pieces and will not allow each writer to have
+their own signature style.
 
-Referencing other sources is fine as long as the license of said source is respected.
+## Additional Notes
+
+### Markdown
+
+Markdown will be automatically formatted to our standards if your contribution
+is merged, so there is no need to worry about formatting.
+
+### Sources
+
+If you use external sources (which most articles will), please make sure to cite
+these sources using Markdown footnotes. A tutorial on using footnotes in
+Markdown can be found
+[here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes).
+
+In general, citations should follow the format of:
+
+- Website: `[URL], [Author?], [Date accessed (DD/MM/YY)]`
+- Conversation/Message: `[Author], [Date (DD/MM/YY)]`
+
+### Using Images
+
+If your article uses images, they should be placed within the `[Issue]/assets`
+directory, with a descriptive `lower-kebab-case` name, as PNGs.
+
+You should also add a note to `[Issue]/assets/ATTRIBUTION.md`, following the
+format used by other entries in the file. If the image is an original that you have created, the author
+should be `Original (your username)`. You should maintain the alphabetic
+sorting.
