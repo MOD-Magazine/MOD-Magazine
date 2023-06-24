@@ -1,0 +1,31 @@
+{
+    "issues": [
+		{ "divider": "April 2023" },
+		{
+			"name": "A Curseforge dilemma",
+			"info": "A collection of large Fabric mods have been jumping ship from Curseforge. It's difficult to keep up with all this block game drama, what ever happened to just mining and crafting?",
+			"url": "issues/april-23/a-curseforge-dilemma"
+		},
+        {
+			"name": "A call for volunteers",
+			"info": "We need you! This issue is something of a proof-of-concept to draw attention to the project; we want to make the best thing we can, and for that we need more people",
+			"url": "issues/april-23/call-for-volunteers"
+		},
+		{
+			"name": "23w13a or b and FlashFest",
+			"info": "This month of course comes with April Fools' Day, and that means a Minecraft April Fools' snapshot! This year Mojang brought us the \"Vote Update\", in which players regularly vote on proposals, each of which changes the game world in ways ranging from changing the colour of grass, to activating the moon, to...turning the game French? C'est bizarre.",
+			"url": "issues/april-23/flashfest"
+		},
+	
+		{
+			"name": "Projects Of the Month",
+			"info": "It's time to look at our editor-picked projects of the month! These are a small selection of our personal favourites that came out recently - this is by no means an exhaustive list, go look for yourself as well!",
+			"url": "issues/april-23/projects-of-the-month"
+		},
+		{
+			"name": "The Effect of Mojang's New Update Cycle on Modders",
+			"info": "The new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.",
+			"url": "issues/april-23/update-cycle"
+		}
+	]
+}
