@@ -61,8 +61,8 @@ for (const listing of content.data) {
                 
 				return (await fetch(article.download_url!)
 					.then((r) => r.text())
-					.then((a) => {
-						return {
+					.then((a) => {                        
+                        return {
 							raw_url: article.download_url!,
 							...(parse(a.split("---")[1]) as object),
 						};

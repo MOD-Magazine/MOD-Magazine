@@ -2,9 +2,10 @@
 title: 23w13a or b and FlashFest
 author: Jamalam360
 coauthors:
-summary: With this years snapshot came an impromptu ModFest, dubbed a
-"FlashFest". The fest gave contestants 24 hours to make anything they
-could with this snapshot. Let's look at some of the entries!
+summary: >
+  With this years snapshot came an impromptu ModFest, dubbed a
+  "FlashFest". The fest gave contestants 24 hours to make anything they
+  could with this snapshot. Let's look at some of the entries!
 ---
 
 This month of course comes with April Fools' Day, and that means a Minecraft
