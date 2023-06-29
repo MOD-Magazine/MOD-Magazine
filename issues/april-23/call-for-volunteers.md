@@ -2,8 +2,7 @@
 title: Call for Volunteers
 author: Jamalam360
 coauthors:
-summary: >
-We need you! Do you have a bit of free time? Do you enjoy writing, designing, or even just being a
+summary: We need you! Do you have a bit of free time? Do you enjoy writing, designing, or even just being a
 part of a community? We want to grow our volunteer team and community.
 ---
 
