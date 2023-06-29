@@ -79,4 +79,4 @@ for (const listing of content.data) {
 }
 
 console.log(JSON.stringify(issues, null, 2));
-await Deno.writeTextFile("./issues/issues.json", JSON.stringify(issues));
+await Deno.writeTextFile("./issues/issues.json", JSON.stringify(issues, null, 2));
