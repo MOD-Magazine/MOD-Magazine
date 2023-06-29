@@ -133,6 +133,6 @@ If your article uses images, they should be placed within the `[Issue]/assets`
 directory, with a descriptive `lower-kebab-case` name, as PNGs.
 
 You should also add a note to `[Issue]/assets/ATTRIBUTION.md`, following the
-format used by other entries in the file. If the image is an original that you have created, the author
-should be `Original (your username)`. You should maintain the alphabetic
-sorting.
+format used by other entries in the file. If the image is an original that you
+have created, the author should be `Original (your username)`. You should
+maintain the alphabetic sorting.

@@ -55,4 +55,5 @@ You can also suggest projects and articles on our
 [Discord](https://mod-magazine.github.io/discord), if you don't want to do any
 of the above roles but still want to get involved.
 
-If you wish to contribute, please reach out and see [CONTRIBUTING.md](./CONTRIBUTING.md)
+If you wish to contribute, please reach out and see
+[CONTRIBUTING.md](./CONTRIBUTING.md)

@@ -1,9 +1,11 @@
-name: Format
+name: Generate issues index
 
 on:
   push:
     branches:
       - main
+      # TODO: remove this
+      - ci/generate-issues-json
 
 jobs:
   fix:
@@ -14,17 +16,11 @@ jobs:
         with:
           token: ${{ secrets.REPO_TOKEN }}
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
 
-      - name: Install Prettier
-        shell: bash
-        run: npm install -g prettier
-
-      - name: Format
-        run: prettier --write .
+      - name: Generate issues index
+        run: deno run --allow-write=./issues/issues.json --allow-net --allow-env=GITHUB_TOKEN .github/actions/generate_issues_index.ts
 
       - name: Commit Changes
         uses: EndBug/add-and-commit@v9
