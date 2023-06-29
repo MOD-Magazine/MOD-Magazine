@@ -56,7 +56,9 @@ for (const listing of content.data) {
 			.filter(
 				(article) => article.type === "file" && article.path.endsWith(".md")
 			)
-			.map(async (article) => {
+            .map(async (article) => {
+                console.log(article.download_url);
+                
 				return (await fetch(article.download_url!)
 					.then((r) => r.text())
 					.then((a) => {
