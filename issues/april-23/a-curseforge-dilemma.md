@@ -2,7 +2,7 @@
 title: A Curseforge Dilemma
 author: Jamalam360
 coauthors:
-summary: | 
+summary: >
 A collection of large Fabric mods have been jumping ship from Curseforge. It's
 difficult to keep up with all this block game drama, what ever happened to
 just mining and crafting?
