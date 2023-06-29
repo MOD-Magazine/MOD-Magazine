@@ -25,6 +25,6 @@ jobs:
       - name: Commit Changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: Format documents
+          message: Regenerate issues index
           committer_name: GitHub Actions
           committer_email: actions@github.com
