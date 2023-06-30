@@ -1,24 +1,6 @@
 // Deno script that generates ./issues/issues.json to be consumed by the website.
-import { Octokit } from "npm:@octokit/rest";
+import { octokit, Issue, Article } from "./shared.ts";
 import { parse } from "https://deno.land/std@0.192.0/yaml/mod.ts";
-
-const octokit = new Octokit({
-	// GITHUB_TOKEN is automatically set by GitHub Actions.
-	auth: Deno.env.get("GITHUB_TOKEN"),
-});
-
-interface Article {
-	raw_url: string;
-	title: string;
-	author: string;
-	coauthors?: string[];
-	summary: string;
-}
-
-interface Issue {
-	date: string;
-	articles: Article[];
-}
 
 const content = await octokit.repos.getContent({
 	owner: "MOD-Magazine",
@@ -64,6 +46,7 @@ for (const listing of content.data) {
 					.then((a) => {                        
                         return {
 							raw_url: article.download_url!,
+							path: article.path.split("issues/")[1].split(".md")[0],
 							...(parse(a.split("---")[1]) as object),
 						};
 					})) as Article;

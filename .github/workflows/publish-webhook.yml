@@ -1,0 +1,28 @@
+name: Publish new articles webhook
+
+on:
+  push:
+    branches:
+      #   - main
+      # TODO: remove this
+      - ci/generate-issues-json
+    paths:
+      - issues/**/**/*.md
+
+jobs:
+  publish:
+    environment: Webhook Publishing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+
+      - name: Publish new articles webhook
+        run: deno run --allow-net --allow-env=GITHUB_TOKEN,WEBHOOK_URL .github/actions/new_article_webhook.ts
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
