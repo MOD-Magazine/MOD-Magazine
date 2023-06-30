@@ -26,7 +26,8 @@ async function findNewArticles(): Promise<Article[]> {
 		stdout: "piped",
 	}).output();
 
-	const currentIssues = await fetchIssues("main");
+    // const currentIssues = await fetchIssues("main");
+    const currentIssues = await fetchIssues("ci/generate-issues-json");
 	const previousIssues = await fetchIssues(
 		new TextDecoder().decode(previousCommit.stdout).trim()
 	);
