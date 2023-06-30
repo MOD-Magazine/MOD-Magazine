@@ -58,33 +58,25 @@ async function findNewArticles(): Promise<Article[]> {
 	return newArticles;
 }
 
-// const newArticles = await findNewArticles();
+const newArticles = await findNewArticles();
 
-// if (newArticles.length === 0) {
-// 	console.log("No new articles found.");
-// 	Deno.exit(0);
-// }
+if (newArticles.length === 0) {
+	console.log("No new articles found.");
+	Deno.exit(0);
+}
 
-// const embeds: Embed[] = newArticles.map((article) => {
-// 	return {
-// 		url: `https://modmagazine.net/issues/${article.path}`,
-// 		title: article.title,
-// 		description: article.summary,
-// 		author: {
-// 			name: article.author,
-// 		},
-// 	};
-// });
+const embeds: Embed[] = newArticles.map((article) => {
+	return {
+		url: `https://modmagazine.net/issues/${article.path}`,
+		title: article.title,
+		description: article.summary,
+		author: {
+			name: article.author,
+		},
+	};
+});
 
-// await post(Deno.env.get("WEBHOOK_URL")!, {
-// 	content: "New articles have been published!",
-// 	embeds: embeds,
-// }, true, true, "...");
-
-const previousCommit = await new Deno.Command("git", {
-    args: ["rev-parse", "HEAD^1"],
-    stdout: "piped",
-}).output();
-
-console.log(new TextDecoder().decode(previousCommit.stdout));
-
+await post(Deno.env.get("WEBHOOK_URL")!, {
+	content: "New articles have been published!",
+	embeds: embeds,
+}, true, true, "...");
