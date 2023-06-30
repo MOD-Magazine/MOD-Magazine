@@ -1,6 +1,7 @@
 name: Publish new articles webhook
 
 on:
+  workflow_dispatch:
   push:
     branches:
       #   - main
