@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-        - issues/**/**/*.md
-  
+      - issues/**/**/*.md
+
 jobs:
   generate:
     runs-on: ubuntu-latest
