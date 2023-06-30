@@ -35,6 +35,14 @@
         "summary": "It's time to look at our editor-picked projects of the month! These are a small selection of our personal favourites that came out recently - this is by no means an exhaustive list, go look for yourself as well!\n"
       },
       {
+        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/ci/generate-issues-json/issues/april-23/random-test-article.md",
+        "path": "april-23/random-test-article",
+        "title": "ignore this",
+        "author": "Jamalam360",
+        "coauthors": null,
+        "summary": "This is just a random test article. ignore\n"
+      },
+      {
         "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/ci/generate-issues-json/issues/april-23/update-cycle.md",
         "path": "april-23/update-cycle",
         "title": "The Effect of Mojang's New Update Cycle on Modders",
