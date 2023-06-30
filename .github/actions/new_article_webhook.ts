@@ -2,7 +2,7 @@ import { post, Embed } from "https://deno.land/x/dishooks@v1.1.0/mod.ts";
 import { Article, Issue, octokit } from "./shared.ts";
 
 async function fetchIssues(ref: string): Promise<Issue[]> {
-    console.log(`fetching issues for ${ref}`);
+	console.log(`fetching issues for ${ref}`);
 
 	const content = await octokit.repos.getContent({
 		owner: "MOD-Magazine",
@@ -25,7 +25,7 @@ async function findNewArticles(): Promise<Article[]> {
 		stdout: "piped",
 	}).output();
 
-    const currentIssues = await fetchIssues("main");
+	const currentIssues = await fetchIssues("main");
 	const previousIssues = await fetchIssues(
 		new TextDecoder().decode(previousCommit.stdout).trim()
 	);
@@ -74,7 +74,13 @@ const embeds: Embed[] = newArticles.map((article) => {
 	};
 });
 
-await post(Deno.env.get("WEBHOOK_URL")!, {
-	content: "",
-	embeds: embeds,
-}, true, true, "...");
+await post(
+	Deno.env.get("WEBHOOK_URL")!,
+	{
+		content: "",
+		embeds: embeds,
+	},
+	true,
+	true,
+	"..."
+);

@@ -2,7 +2,7 @@
 title: The Effect of Mojang's New Update Cycle on Modders
 author: Imzxhir
 coauthors:
-summary: > 
+summary: >
   The new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.
 ---
 

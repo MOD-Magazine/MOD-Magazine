@@ -36,13 +36,13 @@ for (const listing of content.data) {
 			.filter(
 				(article) => article.type === "file" && article.path.endsWith(".md")
 			)
-            .map(async (article) => {
-                console.log(article.download_url);
-                
+			.map(async (article) => {
+				console.log(article.download_url);
+
 				return (await fetch(article.download_url!)
 					.then((r) => r.text())
-					.then((a) => {                        
-                        return {
+					.then((a) => {
+						return {
 							raw_url: article.download_url!,
 							path: article.path.split("issues/")[1].split(".md")[0],
 							...(parse(a.split("---")[1]) as object),
@@ -60,4 +60,7 @@ for (const listing of content.data) {
 }
 
 console.log(JSON.stringify(issues, null, 2));
-await Deno.writeTextFile("./issues/issues.json", JSON.stringify(issues, null, 2));
+await Deno.writeTextFile(
+	"./issues/issues.json",
+	JSON.stringify(issues, null, 2)
+);
