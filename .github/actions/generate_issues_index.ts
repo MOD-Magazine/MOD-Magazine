@@ -6,8 +6,7 @@ const content = await octokit.repos.getContent({
 	owner: "MOD-Magazine",
 	repo: "MOD-Magazine",
 	path: "issues",
-	// ref: "main",
-    ref: "ci/generate-issues-json",
+	ref: "main",
 });
 
 if (content.status !== 200 || !Array.isArray(content.data)) {
@@ -24,8 +23,7 @@ for (const listing of content.data) {
 		owner: "MOD-Magazine",
 		repo: "MOD-Magazine",
 		path: listing.path,
-		// ref: "main",
-        ref: "ci/generate-issues-json",
+		ref: "main",
 	});
 
 	if (articles.status !== 200 || !Array.isArray(articles.data)) {

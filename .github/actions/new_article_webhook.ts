@@ -3,7 +3,6 @@ import { Article, Issue, octokit } from "./shared.ts";
 
 async function fetchIssues(ref: string): Promise<Issue[]> {
     console.log(`fetching issues for ${ref}`);
-    
 
 	const content = await octokit.repos.getContent({
 		owner: "MOD-Magazine",
@@ -26,8 +25,7 @@ async function findNewArticles(): Promise<Article[]> {
 		stdout: "piped",
 	}).output();
 
-    // const currentIssues = await fetchIssues("main");
-    const currentIssues = await fetchIssues("ci/generate-issues-json");
+    const currentIssues = await fetchIssues("main");
 	const previousIssues = await fetchIssues(
 		new TextDecoder().decode(previousCommit.stdout).trim()
 	);
@@ -77,6 +75,6 @@ const embeds: Embed[] = newArticles.map((article) => {
 });
 
 await post(Deno.env.get("WEBHOOK_URL")!, {
-	content: "New articles have been published!",
+	content: "",
 	embeds: embeds,
 }, true, true, "...");

@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      #   - main
-      # TODO: remove this
-      - ci/generate-issues-json
+      - main
     paths:
       - issues/**/**/*.md
 
