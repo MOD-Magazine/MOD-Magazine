@@ -2,6 +2,9 @@ import { post, Embed } from "https://deno.land/x/dishooks@v1.1.0/mod.ts";
 import { Article, Issue, octokit } from "./shared.ts";
 
 async function fetchIssues(ref: string): Promise<Issue[]> {
+    console.log(`fetching issues for ${ref}`);
+    
+
 	const content = await octokit.repos.getContent({
 		owner: "MOD-Magazine",
 		repo: "MOD-Magazine",
