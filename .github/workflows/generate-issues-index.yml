@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - issues/**/**/*.md
+      - .github/actions/generate_issues_index.ts
+      - .github/workflows/generate_issues_index.yml
   workflow_dispatch:
 
 jobs:

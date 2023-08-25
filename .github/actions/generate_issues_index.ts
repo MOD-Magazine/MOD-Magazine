@@ -2,11 +2,19 @@
 import { octokit, Issue, Article } from "./shared.ts";
 import { parse } from "https://deno.land/std@0.192.0/yaml/mod.ts";
 
+const latestCommit = await octokit.repos.getCommit({
+	owner: "MOD-Magazine",
+	repo: "MOD-Magazine",
+	ref: "main",
+});
+
+console.log(latestCommit.data.sha);
+
 const content = await octokit.repos.getContent({
 	owner: "MOD-Magazine",
 	repo: "MOD-Magazine",
 	path: "issues",
-	ref: "main",
+	ref: latestCommit.data.sha,
 });
 
 if (content.status !== 200 || !Array.isArray(content.data)) {
@@ -23,13 +31,13 @@ for (const listing of content.data) {
 		owner: "MOD-Magazine",
 		repo: "MOD-Magazine",
 		path: listing.path,
-		ref: "main",
+		ref: latestCommit.data.sha,
 	});
 
 	if (articles.status !== 200 || !Array.isArray(articles.data)) {
 		console.error(`Failed to fetch articles in ${listing.path}.`);
 		Deno.exit(1);
-	}
+	}	
 
 	const articleData: Article[] = await Promise.all(
 		articles.data
