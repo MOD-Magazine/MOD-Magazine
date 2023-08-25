@@ -2,6 +2,7 @@
 title: Projects of the Month
 author: Jamalam360
 coauthors:
+image: ./assets/physics-toys.png
 summary: >
   It's time to look at our editor-picked projects of the month! These are a small
   selection of our personal favourites that came out recently - this is by
