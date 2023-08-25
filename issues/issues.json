@@ -44,5 +44,18 @@
 				"summary": "The new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.\n"
 			}
 		]
+	},
+	{
+		"date": "august-23",
+		"articles": [
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/main/issues/august-23/start-of-blanketcon.md",
+				"path": "august-23/start-of-blanketcon",
+				"title": "BlanketCon 23 Kicks Off!",
+				"author": "Jamalam360",
+				"image": "./assets/blanketcon-logo.png",
+				"summary": "Today, Friday 25th of August, marks the beginning of the BlanketCon in-game modding convention, giving us a huge modpack and a beatiful world to explore along with many exciting events!"
+			}
+		]
 	}
 ]
