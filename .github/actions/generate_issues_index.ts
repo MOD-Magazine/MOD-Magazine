@@ -37,7 +37,7 @@ for (const listing of content.data) {
 	if (articles.status !== 200 || !Array.isArray(articles.data)) {
 		console.error(`Failed to fetch articles in ${listing.path}.`);
 		Deno.exit(1);
-	}	
+	}
 
 	const articleData: Article[] = await Promise.all(
 		articles.data
