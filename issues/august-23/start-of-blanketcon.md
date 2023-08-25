@@ -15,10 +15,14 @@ The cyberpunk section of the map is a huge dystopian-style city with back alleyw
 - ![The centre of the cyberpunk city](./assets/cyberpunk-1.png)
 - ![The cinema, along with some ethically questionable businesses](./assets/cyberpunk-2.png)
 - ![An overview of the city](./assets/cyberpunk-3.png)
+
 In contrast, the solarpunk area is less dense, with its greenery and overgrown towers.
+
 - ![The view from the central station](./assets/solarpunk-1.png)
 - ![The solarpunk area contains plenty of green space](./assets/solarpunk-2.png)
+
 A map this vast would not be possible without a robust transport infrastructure - luckily, [Create: Steam 'n' Rails](https://modrinth.com/mod/create-steam-n-rails) and its team (amongst others) have created a comprehensive automatic railway system. It's a feat of modded Minecraft engineering, and I'd recommend you take a ride.
+
 - ![The central station can be used to travel to almost anywhere on the map](./assets/station-1.png)
 - ![The bridge from the solarpunk area to the cyberpunk area](./assets/train-1.png)
 - ![A monorail in the solarpunk area](./assets/train-2.png)
