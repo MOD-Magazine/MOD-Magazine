@@ -34,7 +34,7 @@ for (const listing of content.data) {
 	const articleData: Article[] = await Promise.all(
 		articles.data
 			.filter(
-				(article) => article.type === "file" && article.path.endsWith(".md")
+				(article) => article.type === "file" && article.path.endsWith(".md"),
 			)
 			.map(async (article) => {
 				console.log(article.download_url);
@@ -48,7 +48,7 @@ for (const listing of content.data) {
 							...(parse(a.split("---")[1]) as object),
 						};
 					})) as Article;
-			})
+			}),
 	);
 
 	const issue: Issue = {
@@ -62,5 +62,5 @@ for (const listing of content.data) {
 console.log(JSON.stringify(issues, null, 2));
 await Deno.writeTextFile(
 	"./issues/issues.json",
-	JSON.stringify(issues, null, 2)
+	JSON.stringify(issues, null, 2),
 );

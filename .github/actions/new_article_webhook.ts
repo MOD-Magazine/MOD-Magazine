@@ -27,14 +27,14 @@ async function findNewArticles(): Promise<Article[]> {
 
 	const currentIssues = await fetchIssues("main");
 	const previousIssues = await fetchIssues(
-		new TextDecoder().decode(previousCommit.stdout).trim()
+		new TextDecoder().decode(previousCommit.stdout).trim(),
 	);
 
 	const newArticles: Article[] = [];
 
 	for (const currentIssue of currentIssues) {
 		const previousIssue = previousIssues.find(
-			(issue) => issue.date === currentIssue.date
+			(issue) => issue.date === currentIssue.date,
 		);
 
 		if (!previousIssue) {
@@ -45,7 +45,7 @@ async function findNewArticles(): Promise<Article[]> {
 		for (const currentArticle of currentIssue.articles) {
 			if (
 				!previousIssue.articles.find(
-					(article) => article.path === currentArticle.path
+					(article) => article.path === currentArticle.path,
 				)
 			) {
 				newArticles.push(currentArticle);
@@ -82,5 +82,5 @@ await post(
 	},
 	true,
 	true,
-	"..."
+	"...",
 );
