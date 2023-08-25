@@ -9,6 +9,7 @@ export interface Article {
 	path: string;
 	title: string;
 	author: string;
+	image?: string;
 	coauthors?: string[];
 	summary: string;
 }
