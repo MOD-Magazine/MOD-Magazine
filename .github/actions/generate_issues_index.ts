@@ -37,12 +37,12 @@ for (const listing of content.data) {
 	if (articles.status !== 200 || !Array.isArray(articles.data)) {
 		console.error(`Failed to fetch articles in ${listing.path}.`);
 		Deno.exit(1);
-	}	
+	}
 
 	const articleData: Article[] = await Promise.all(
 		articles.data
 			.filter(
-				(article) => article.type === "file" && article.path.endsWith(".md"),
+				(article) => article.type === "file" && article.path.endsWith(".md")
 			)
 			.map(async (article) => {
 				console.log(article.download_url);
@@ -50,13 +50,22 @@ for (const listing of content.data) {
 				return (await fetch(article.download_url!)
 					.then((r) => r.text())
 					.then((a) => {
-						return {
-							raw_url: article.download_url!,
-							path: article.path.split("issues/")[1].split(".md")[0],
-							...(parse(a.split("---")[1]) as object),
-						};
+						return octokit.repos
+							.listCommits({
+								owner: "MOD-Magazine",
+								repo: "MOD-Magazine",
+								path: article.path,
+							})
+							.then((lastUpdated) => {								
+								return {
+									raw_url: article.download_url!,
+									path: article.path.split("issues/")[1].split(".md")[0],
+									date: lastUpdated.data[0].commit.author.date,
+									...(parse(a.split("---")[1]) as object),
+								};
+							});
 					})) as Article;
-			}),
+			})
 	);
 
 	const issue: Issue = {
@@ -70,5 +79,5 @@ for (const listing of content.data) {
 console.log(JSON.stringify(issues, null, 2));
 await Deno.writeTextFile(
 	"./issues/issues.json",
-	JSON.stringify(issues, null, 2),
+	JSON.stringify(issues, null, 2)
 );

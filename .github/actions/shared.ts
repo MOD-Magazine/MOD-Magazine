@@ -7,6 +7,7 @@ export const octokit = new Octokit({
 export interface Article {
 	raw_url: string;
 	path: string;
+	date: string;
 	title: string;
 	author: string;
 	image?: string;
