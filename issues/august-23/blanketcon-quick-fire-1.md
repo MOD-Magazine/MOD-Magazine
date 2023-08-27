@@ -1,12 +1,12 @@
 ---
-title: 'Quick-fire 1: 15 BlanketCon mods to check out'
+title: "Quick-fire 1: 15 BlanketCon mods to check out"
 author: Jamalam360
 image: ./assets/cover.png
 summary: Our first quick-fire list of mods you should try out from BlanketCon 23.
 draft: true
 ---
 
-This article is the first in a series of 'quick-fire' articles on projects at [BlanketCon 23](https://blanketcon.modfest.net). 
+This article is the first in a series of 'quick-fire' articles on projects at [BlanketCon 23](https://blanketcon.modfest.net).
 
 These lists are in no particular order and mods haven't been chosen based on any particular criteria. While we will do our best to cover as much as possible, we really recommend joining the server to explore for yourself.
 
