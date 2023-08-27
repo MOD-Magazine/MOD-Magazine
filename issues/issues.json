@@ -1,67 +1,67 @@
 [
-  {
-    "date": "april-23",
-    "articles": [
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/april-23/a-curseforge-dilemma.md",
-        "path": "april-23/a-curseforge-dilemma",
-        "date": "2023-06-30T08:13:42Z",
-        "title": "A Curseforge Dilemma",
-        "author": "Jamalam360",
-        "coauthors": null,
-        "summary": "A collection of large Fabric mods have been jumping ship from Curseforge. It's difficult to keep up with all this block game drama, what ever happened to just mining and crafting?\n"
-      },
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/april-23/call-for-volunteers.md",
-        "path": "april-23/call-for-volunteers",
-        "date": "2023-06-30T08:14:03Z",
-        "title": "Call for Volunteers",
-        "author": "Jamalam360",
-        "coauthors": null,
-        "summary": "We need you! Do you have a bit of free time? Do you enjoy writing, designing, or even just being a part of a community? We want to grow our volunteer team and community.\n"
-      },
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/april-23/flashfest.md",
-        "path": "april-23/flashfest",
-        "date": "2023-06-30T08:13:42Z",
-        "title": "23w13a or b and FlashFest",
-        "author": "Jamalam360",
-        "coauthors": null,
-        "summary": "With this years snapshot came an impromptu ModFest, dubbed a \"FlashFest\". The fest gave contestants 24 hours to make anything they could with this snapshot. Let's look at some of the entries!\n"
-      },
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/april-23/projects-of-the-month.md",
-        "path": "april-23/projects-of-the-month",
-        "date": "2023-08-25T12:53:36Z",
-        "title": "Projects of the Month",
-        "author": "Jamalam360",
-        "coauthors": null,
-        "image": "./assets/physics-toys.png",
-        "summary": "It's time to look at our editor-picked projects of the month! These are a small selection of our personal favourites that came out recently - this is by no means an exhaustive list, go look for yourself as well!\n"
-      },
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/april-23/update-cycle.md",
-        "path": "april-23/update-cycle",
-        "date": "2023-06-30T08:14:03Z",
-        "title": "The Effect of Mojang's New Update Cycle on Modders",
-        "author": "Imzxhir",
-        "coauthors": null,
-        "summary": "The new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.\n"
-      }
-    ]
-  },
-  {
-    "date": "august-23",
-    "articles": [
-      {
-        "raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/14a2cbb17f1cdc39d45553653830ecb37b4b3115/issues/august-23/start-of-blanketcon.md",
-        "path": "august-23/start-of-blanketcon",
-        "date": "2023-08-25T20:10:28Z",
-        "title": "BlanketCon 23 Kicks Off!",
-        "author": "Jamalam360",
-        "image": "./assets/blanketcon-logo.png",
-        "summary": "Today, Friday 25th of August, marks the beginning of the BlanketCon in-game modding convention, giving us a huge modpack and a beatiful world to explore along with many exciting events!"
-      }
-    ]
-  }
+	{
+		"date": "april-23",
+		"articles": [
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/april-23/a-curseforge-dilemma.md",
+				"path": "april-23/a-curseforge-dilemma",
+				"date": "2023-06-30T08:13:42Z",
+				"title": "A Curseforge Dilemma",
+				"author": "Jamalam360",
+				"coauthors": null,
+				"summary": "A collection of large Fabric mods have been jumping ship from Curseforge. It's difficult to keep up with all this block game drama, what ever happened to just mining and crafting?\n"
+			},
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/april-23/call-for-volunteers.md",
+				"path": "april-23/call-for-volunteers",
+				"date": "2023-06-30T08:14:03Z",
+				"title": "Call for Volunteers",
+				"author": "Jamalam360",
+				"coauthors": null,
+				"summary": "We need you! Do you have a bit of free time? Do you enjoy writing, designing, or even just being a part of a community? We want to grow our volunteer team and community.\n"
+			},
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/april-23/flashfest.md",
+				"path": "april-23/flashfest",
+				"date": "2023-06-30T08:13:42Z",
+				"title": "23w13a or b and FlashFest",
+				"author": "Jamalam360",
+				"coauthors": null,
+				"summary": "With this years snapshot came an impromptu ModFest, dubbed a \"FlashFest\". The fest gave contestants 24 hours to make anything they could with this snapshot. Let's look at some of the entries!\n"
+			},
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/april-23/projects-of-the-month.md",
+				"path": "april-23/projects-of-the-month",
+				"date": "2023-08-25T12:53:36Z",
+				"title": "Projects of the Month",
+				"author": "Jamalam360",
+				"coauthors": null,
+				"image": "./assets/physics-toys.png",
+				"summary": "It's time to look at our editor-picked projects of the month! These are a small selection of our personal favourites that came out recently - this is by no means an exhaustive list, go look for yourself as well!\n"
+			},
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/april-23/update-cycle.md",
+				"path": "april-23/update-cycle",
+				"date": "2023-06-30T08:14:03Z",
+				"title": "The Effect of Mojang's New Update Cycle on Modders",
+				"author": "Imzxhir",
+				"coauthors": null,
+				"summary": "The new update cycle recently introduced by Mojang has had a significant impact on modders, and many are now struggling to maintain their mods for new versions of the game.\n"
+			}
+		]
+	},
+	{
+		"date": "august-23",
+		"articles": [
+			{
+				"raw_url": "https://raw.githubusercontent.com/MOD-Magazine/MOD-Magazine/3c85b8d3d4538841b62fe6ffd19f9546c3ba9ea8/issues/august-23/start-of-blanketcon.md",
+				"path": "august-23/start-of-blanketcon",
+				"date": "2023-08-25T20:10:28Z",
+				"title": "BlanketCon 23 Kicks Off!",
+				"author": "Jamalam360",
+				"image": "./assets/blanketcon-logo.png",
+				"summary": "Today, Friday 25th of August, marks the beginning of the BlanketCon in-game modding convention, giving us a huge modpack and a beatiful world to explore along with many exciting events!"
+			}
+		]
+	}
 ]
