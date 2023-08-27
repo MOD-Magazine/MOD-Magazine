@@ -12,6 +12,7 @@ jobs:
   publish:
     environment: Webhook Publishing
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.event.commits[0].added.length > 0
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
