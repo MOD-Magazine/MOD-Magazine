@@ -1,7 +1,7 @@
 ---
 title: "Quick-fire 1: 15 BlanketCon mods to check out"
 author: Jamalam360
-image: ./assets/cover.png
+image: ./assets/blanketcon-quick-fire-1/cover.png
 summary: Our first quick-fire list of mods you should try out from BlanketCon 23.
 ---
 
