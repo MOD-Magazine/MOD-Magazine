@@ -57,11 +57,13 @@ for (const listing of content.data) {
 								path: article.path,
 							})
 							.then((lastUpdated) => {
+								const fm = parse(a.split("---")[1]) as object;
 								return {
 									raw_url: article.download_url!,
 									path: article.path.split("issues/")[1].split(".md")[0],
 									date: lastUpdated.data[0].commit.author.date,
-									...(parse(a.split("---")[1]) as object),
+									draft: fm.draft || false,
+									...fm,
 								};
 							});
 					})) as Article;

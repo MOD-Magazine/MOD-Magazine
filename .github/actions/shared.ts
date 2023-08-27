@@ -9,6 +9,7 @@ export interface Article {
 	path: string;
 	date: string;
 	title: string;
+	draft?: boolean;
 	author: string;
 	image?: string;
 	coauthors?: string[];
