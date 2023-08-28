@@ -43,7 +43,7 @@ if (content.status !== 200 || !Array.isArray(content.data)) {
 	Deno.exit(1);
 }
 
-const issues: Issue[] = [];
+let issues: Issue[] = [];
 
 for (const listing of content.data) {
 	if (listing.type !== "dir") continue;
@@ -98,6 +98,14 @@ for (const listing of content.data) {
 
 	issues.push(issue);
 }
+
+issues = issues.map((i) => {
+	i.articles = i.articles.sort((a, b) => {
+		return new Date(b.date) - new Date(a.date);
+	});
+	
+	return i;
+});
 
 console.log(JSON.stringify(issues, null, 2));
 await Deno.writeTextFile(
