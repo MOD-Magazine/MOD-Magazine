@@ -1,8 +1,8 @@
 ---
-title: "Quick-fire 2: 15 more BlanketCon mods to check out"
+title: "Quick-fire 2: 15 more BlanketCon mods"
 author: Jamalam360
 image: ./assets/blanketcon-quick-fire-2/cover.png
-summary: Another quick-fire list of mods you should try out from BlanketCon 23.
+summary: Another quick-fire list of mods you should check out at BlanketCon 23.
 ---
 
 This article is the second in a series of 'quick-fire' articles on projects at [BlanketCon 23](https://blanketcon.modfest.net).
