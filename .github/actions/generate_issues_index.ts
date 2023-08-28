@@ -103,7 +103,7 @@ issues = issues.map((i) => {
 	i.articles = i.articles.sort((a, b) => {
 		return new Date(b.date) - new Date(a.date);
 	});
-	
+
 	return i;
 });
 
