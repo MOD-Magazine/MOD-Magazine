@@ -3,7 +3,6 @@ title: "Quick-fire 2: 15 more BlanketCon mods to check out"
 author: Jamalam360
 image: ./assets/blanketcon-quick-fire-2/cover.png
 summary: Another quick-fire list of mods you should try out from BlanketCon 23.
-draft: true
 ---
 
 This article is the second in a series of 'quick-fire' articles on projects at [BlanketCon 23](https://blanketcon.modfest.net).
@@ -54,7 +53,7 @@ _Also view [the talk by Patbox on server-side development](https://www.youtube.c
 ## [Lovely Snails](https://modrinth.com/mod/lovely_snails)
 
 - ![Lovely Snails adds rideable snails](./assets/blanketcon-quick-fire-2/snails-1.png)
-- ![Snails have to be looked after before they grow big enough to be ridden](./assets/blanketcon-quick-fire-2/snails-4.png)
+- ![Snails have to be looked after as they grow big enough to be ridden](./assets/blanketcon-quick-fire-2/snails-4.png)
 
 ## [Succ™](https://modrinth.com/mod/succ)
 
