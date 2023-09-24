@@ -13,7 +13,7 @@ These lists are in no particular order and mods haven't been chosen based on any
 
 ## [Bovines and Buttercups](https://modrinth.com/mod/bovines-and-buttercups)
 
-- ![Bovines and Buttercups adds Mooblooms, from the 2020 mod vote](./assets/blanketcon-quick-fire-1/bovines-and-buttercups-2.png)
+- ![Bovines and Buttercups adds Mooblooms, from the 2020 mob vote](./assets/blanketcon-quick-fire-1/bovines-and-buttercups-2.png)
 - ![The mod also adds Bowls of Nectar, which can prevent effects from applying to you or lock the duration of effects. The effect depends on the Moobloom you milked](./assets/blanketcon-quick-fire-1/bovines-and-buttercups-4.png)
 - ![Mooblooms can also interact with bees by providing nectar for them. If they are pollinated sufficiently, they will produce Moobloom flowers](./assets/blanketcon-quick-fire-1/bovines-and-buttercups-5.png)
 - ![The outside of the Bovines and Buttercups booth](./assets/blanketcon-quick-fire-1/bovines-and-buttercups-1.png)
